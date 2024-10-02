@@ -1,0 +1,65 @@
+\doxysection{Account Class Reference}
+\hypertarget{classAccount}{}\label{classAccount}\index{Account@{Account}}
+
+
+Represents a dialog for managing bank accounts.  
+
+
+
+
+{\ttfamily \#include $<$account.\+h$>$}
+
+Inheritance diagram for Account\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classAccount}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{Indent}\textbf{ Account\+::Account}\par
+{\em Constructor for the \doxylink{classAccount}{Account} class. Initializes the \doxylink{classAccount}{Account} dialog by setting up the user interface components. It populates the language selection combo box with available options (English, Arabic, German, French) and enables hover events for the buttons. Event filters are installed on the buttons to handle hover interactions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The parent widget for this dialog, default is nullptr. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classAccount_a0fd03c44db45792f8c4f3e8172bc3f6c}\label{classAccount_a0fd03c44db45792f8c4f3e8172bc3f6c} 
+{\bfseries Account} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\end{DoxyCompactItemize}
+\end{Indent}
+\doxysubsubsection*{Protected Member Functions}
+\begin{Indent}\textbf{ Account\+::event\+Filter}\par
+{\em Filters events for specific buttons to handle hover effects. This function checks if the event is for one of the specified buttons. When the mouse enters the button area, it changes the button\textquotesingle{}s style to indicate a hover effect. When the mouse leaves, it reverts the button\textquotesingle{}s style to its original appearance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em watched} & The object being watched for events. \\
+\hline
+{\em event} & The event to be processed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if the event was handled; otherwise, it calls the base class implementation and returns its result. 
+\end{DoxyReturn}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classAccount_aa222a88755263f56a4610d0941167032}\label{classAccount_aa222a88755263f56a4610d0941167032} 
+bool {\bfseries event\+Filter} (QObject \texorpdfstring{$\ast$}{*}watched, QEvent \texorpdfstring{$\ast$}{*}event) override
+\end{DoxyCompactItemize}
+\end{Indent}
+
+
+\doxysubsection{Detailed Description}
+Represents a dialog for managing bank accounts. 
+
+This class provides an interface for users to perform operations related to different types of bank accounts, including saving accounts, checking accounts, and loan accounts. It allows users to create new accounts and edit existing ones.
+
+The class inherits from QDialog and includes slots for handling button clicks and changes in the user interface, enabling a responsive and interactive experience. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+account.\+h\item 
+account.\+cpp\end{DoxyCompactItemize}

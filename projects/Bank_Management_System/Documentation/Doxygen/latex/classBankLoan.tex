@@ -1,0 +1,260 @@
+\doxysection{Bank\+Loan Class Reference}
+\hypertarget{classBankLoan}{}\label{classBankLoan}\index{BankLoan@{BankLoan}}
+
+
+The \doxylink{classBankLoan}{Bank\+Loan} class represents a loan account for a bank customer.  
+
+
+
+
+{\ttfamily \#include $<$loan\+\_\+acount.\+h$>$}
+
+Inheritance diagram for Bank\+Loan\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classBankLoan}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBankLoan_a9b8eddeb15a8c01fe88a0b91005ad3ea}{Bank\+Loan}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for \doxylink{classBankLoan}{Bank\+Loan}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBankLoan_a2bebb3181841308d359f9e883e90f913}{Bank\+Loan}} (QString Customer\+\_\+\+Name, QString Customer\+\_\+\+Pass, QString Customer\+\_\+\+NN)
+\begin{DoxyCompactList}\small\item\em Constructs a \doxylink{classBankLoan}{Bank\+Loan} object with specified customer details. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankLoan_adb978b7ea37e3b0386e19d2c42b91982}{Set\+\_\+\+Loan\+\_\+\+Amount}} (float m\+\_\+\+Loan\+\_\+\+Amount)
+\begin{DoxyCompactList}\small\item\em Sets the loan amount. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankLoan_a5b38f022f514c0aed56711f005c53185}{Set\+\_\+\+Loan\+\_\+\+Duration}} (int m\+\_\+\+Loan\+\_\+\+Duration)
+\begin{DoxyCompactList}\small\item\em Sets the loan duration and updates the interest ratio accordingly. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classBankLoan_a2ee24a3cffbac31986abbffe0578d14f}{Get\+\_\+\+Loan\+\_\+\+Amount}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the loan amount. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankLoan_aba412ff12c8f7afa9d93933710de2874}{Get\+\_\+\+Loan\+\_\+\+Duration}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the loan duration. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classBankLoan_a00aaec21669a61045444740a8836f1a1}{Get\+\_\+\+Interest\+\_\+\+Ratio}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the interest ratio for the loan. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBankCustomer}{Bank\+Customer}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBankCustomer_a65090703ac5a60018d85523044b9d94d}{Bank\+Customer}} (QString m\+\_\+\+Customer\+\_\+\+Name, QString m\+\_\+\+Customer\+\_\+\+NN, QString m\+\_\+\+Customer\+\_\+\+Address, int m\+\_\+\+Customer\+\_\+\+Age, QString m\+\_\+\+Customer\+\_\+\+Password, QString m\+\_\+\+Customer\+\_\+phone, QString m\+\_\+\+Customer\+\_\+\+Email)
+\begin{DoxyCompactList}\small\item\em Constructs a \doxylink{classBankCustomer}{Bank\+Customer} object with the provided details. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBankCustomer_afe56dbb14d9d69edf3c7d1df0e10e8d2}{\texorpdfstring{$\sim$}{\string~}\+Bank\+Customer}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{classBankCustomer}{Bank\+Customer} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBankAccount}{Bank\+Account}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Account\+\_\+information} (Account\+\_\+\+Type\+\_\+\+Id ACC\+\_\+\+ID)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Bank\+Account} (QString Customer\+\_\+\+Name, QString Customer\+\_\+\+NN, QString Customer\+\_\+\+Pass, QString Customer\+\_\+\+Address="{} "{}, int Customer\+\_\+\+Age=0, QString m\+\_\+\+Customer\+\_\+phone="{} "{}, QString m\+\_\+\+Customer\+\_\+\+Email="{} "{})
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Name} (QString Customer\+\_\+\+Name)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+NN} (QString Customer\+\_\+\+NN)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Pass} (QString Customer\+\_\+\+Pass)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Address} (QString Customer\+\_\+\+Address)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Age} (int Customer\+\_\+\+Age)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Phone} (QString m\+\_\+\+Customer\+\_\+phone)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Email} (QString m\+\_\+\+Customer\+\_\+\+Email)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Credit\+\_\+\+Limit} (float m\+\_\+\+Credit\+\_\+\+Limit)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries Check\+\_\+\+Account\+\_\+\+Info} (void)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classBankAccount_a66af4a56ed0b8f646e6c44a1059f77b9}{deposit}} (int Customer\+\_\+id, float m\+\_\+\+Amount)
+\begin{DoxyCompactList}\small\item\em Deposits an amount into the bank account of a customer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankAccount_a44a06e5694259bd7ec1a9b11a7966bf4}{withdraw}} (int Customer\+\_\+id, float m\+\_\+\+Amount)
+\begin{DoxyCompactList}\small\item\em Withdraws an amount from the bank account of a customer. \end{DoxyCompactList}\item 
+int {\bfseries QMessage\+Box\+\_\+\+Display} (QString text, int type)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries balance\+\_\+\+Enquiry} (void)
+\item 
+void \mbox{\hyperlink{classBankAccount_a54f60ab3a5f28eff186d7a8e947630d3}{Add\+\_\+\+New\+\_\+\+Customer}} (void)
+\begin{DoxyCompactList}\small\item\em Adds a new customer to the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Create\+\_\+\+Saving\+\_\+\+Account} (float Saving\+\_\+\+Amount)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Create\+\_\+\+Loan\+\_\+\+Account} (float Loan\+\_\+\+Amount, int Loan\+\_\+\+Duration, float Interest\+\_\+\+Rate)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Create\+\_\+\+Checking\+\_\+\+Account} (float Cheking\+\_\+\+Amount)
+\item 
+QString \mbox{\hyperlink{classBankAccount_a02ee565d39580f55244e91b3a0fa1b39}{generate\+OTP}} ()
+\begin{DoxyCompactList}\small\item\em Generates a random One-\/\+Time Password (OTP). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankAccount_a4daa69715b7b9e1506966c6987392363}{send\+Email}} (const QString \&otp, const QString \&recipient\+Email)
+\begin{DoxyCompactList}\small\item\em Sends an OTP to a specified email address. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBankDataBase}{Bank\+Data\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBankDataBase_a5d9b735146e8dc2f635ef6a244a1bb3d}{Initialize\+\_\+\+Data\+\_\+\+Base}} (QString db\+Name)
+\begin{DoxyCompactList}\small\item\em Initializes the bank database by creating necessary tables and establishing a connection. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a9e1354c2b90094fb15a409331ad0e5f9}{create\+Table}} (QString sql)
+\begin{DoxyCompactList}\small\item\em Creates a table in the database using the provided SQL query. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a064911177618d2bde1747b311aa0d487}{insert\+Data}} (QString String\+To\+Insert)
+\begin{DoxyCompactList}\small\item\em Inserts data into the database using the provided SQL query. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a4874f3009039c80771e71ebe49887803}{Return\+\_\+\+Item}} (QString Table\+Name, QString select, QString condition)
+\begin{DoxyCompactList}\small\item\em Retrieves a specific item from the database based on the given conditions. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a74111d44bce10c68eab40f1577cef4a0}{delete\+Data}} (QString Table\+\_\+name, int id)
+\begin{DoxyCompactList}\small\item\em Deletes a record from the specified table based on the given \doxylink{classCustomer}{Customer} ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a6d18a7960a82cd8620b972961e74146f}{update\+Data}} (QString newsql)
+\begin{DoxyCompactList}\small\item\em Updates data in the database using the provided SQL query. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBankDataBase_ad530d58c9a96baf024c02b45279fe83f}{check\+Table\+Exists}} (QString table\+Name)
+\begin{DoxyCompactList}\small\item\em Checks if a specified table exists in the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_a6743a102bd51adc5bb11ea2a49b3c856}{Daily\+\_\+\+Updating}} (void)
+\begin{DoxyCompactList}\small\item\em Performs daily updates on saving , loan and checking accounts. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_af256c6ce464eca9a2624d5538716cb16}{Get\+\_\+\+Data\+\_\+\+Base\+\_\+\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the name of the database. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a55739d7ad2bae21fb1333c0a4a475f78}{hash\+Password}} (const QString \&password)
+\begin{DoxyCompactList}\small\item\em Hashes a password using SHA-\/256. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_abe13b1f15f41c7f7c239d21bbc288c34}{Write\+\_\+\+Summary}} (void)
+\begin{DoxyCompactList}\small\item\em Writes a daily summary of transactions to the database. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBankDataBase_ac21acac11648c77daee4b6c93318ac5d}{\texorpdfstring{$\sim$}{\string~}\+Bank\+Data\+Base}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{classBankDataBase}{Bank\+Data\+Base} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \doxylink{classBankLoan}{Bank\+Loan} class represents a loan account for a bank customer. 
+
+This class manages the loan details such as amount, duration, and interest ratio. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classBankLoan_a9b8eddeb15a8c01fe88a0b91005ad3ea}\index{BankLoan@{BankLoan}!BankLoan@{BankLoan}}
+\index{BankLoan@{BankLoan}!BankLoan@{BankLoan}}
+\doxysubsubsection{\texorpdfstring{BankLoan()}{BankLoan()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classBankLoan_a9b8eddeb15a8c01fe88a0b91005ad3ea} 
+Bank\+Loan\+::\+Bank\+Loan (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Default constructor for \doxylink{classBankLoan}{Bank\+Loan}. 
+
+Initializes the database without setting customer details. \Hypertarget{classBankLoan_a2bebb3181841308d359f9e883e90f913}\index{BankLoan@{BankLoan}!BankLoan@{BankLoan}}
+\index{BankLoan@{BankLoan}!BankLoan@{BankLoan}}
+\doxysubsubsection{\texorpdfstring{BankLoan()}{BankLoan()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classBankLoan_a2bebb3181841308d359f9e883e90f913} 
+Bank\+Loan\+::\+Bank\+Loan (\begin{DoxyParamCaption}\item[{QString}]{Customer\+\_\+\+Name}{, }\item[{QString}]{Customer\+\_\+\+Pass}{, }\item[{QString}]{Customer\+\_\+\+NN}{}\end{DoxyParamCaption})}
+
+
+
+Constructs a \doxylink{classBankLoan}{Bank\+Loan} object with specified customer details. 
+
+Initializes the loan account with customer information and sets up the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Customer\+\_\+\+Name} & The name of the customer. \\
+\hline
+{\em Customer\+\_\+\+Pass} & The password of the customer. \\
+\hline
+{\em Customer\+\_\+\+NN} & The national number of the customer. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classBankLoan_a00aaec21669a61045444740a8836f1a1}\index{BankLoan@{BankLoan}!Get\_Interest\_Ratio@{Get\_Interest\_Ratio}}
+\index{Get\_Interest\_Ratio@{Get\_Interest\_Ratio}!BankLoan@{BankLoan}}
+\doxysubsubsection{\texorpdfstring{Get\_Interest\_Ratio()}{Get\_Interest\_Ratio()}}
+{\footnotesize\ttfamily \label{classBankLoan_a00aaec21669a61045444740a8836f1a1} 
+float Bank\+Loan\+::\+Get\+\_\+\+Interest\+\_\+\+Ratio (\begin{DoxyParamCaption}\item[{void}]{}{}\end{DoxyParamCaption})}
+
+
+
+Gets the interest ratio for the loan. 
+
+\begin{DoxyReturn}{Returns}
+The interest ratio as a float. 
+\end{DoxyReturn}
+\Hypertarget{classBankLoan_a2ee24a3cffbac31986abbffe0578d14f}\index{BankLoan@{BankLoan}!Get\_Loan\_Amount@{Get\_Loan\_Amount}}
+\index{Get\_Loan\_Amount@{Get\_Loan\_Amount}!BankLoan@{BankLoan}}
+\doxysubsubsection{\texorpdfstring{Get\_Loan\_Amount()}{Get\_Loan\_Amount()}}
+{\footnotesize\ttfamily \label{classBankLoan_a2ee24a3cffbac31986abbffe0578d14f} 
+float Bank\+Loan\+::\+Get\+\_\+\+Loan\+\_\+\+Amount (\begin{DoxyParamCaption}\item[{void}]{}{}\end{DoxyParamCaption})}
+
+
+
+Gets the loan amount. 
+
+\begin{DoxyReturn}{Returns}
+The loan amount as a float. 
+\end{DoxyReturn}
+\Hypertarget{classBankLoan_aba412ff12c8f7afa9d93933710de2874}\index{BankLoan@{BankLoan}!Get\_Loan\_Duration@{Get\_Loan\_Duration}}
+\index{Get\_Loan\_Duration@{Get\_Loan\_Duration}!BankLoan@{BankLoan}}
+\doxysubsubsection{\texorpdfstring{Get\_Loan\_Duration()}{Get\_Loan\_Duration()}}
+{\footnotesize\ttfamily \label{classBankLoan_aba412ff12c8f7afa9d93933710de2874} 
+int Bank\+Loan\+::\+Get\+\_\+\+Loan\+\_\+\+Duration (\begin{DoxyParamCaption}\item[{void}]{}{}\end{DoxyParamCaption})}
+
+
+
+Gets the loan duration. 
+
+\begin{DoxyReturn}{Returns}
+The loan duration in months as an integer. 
+\end{DoxyReturn}
+\Hypertarget{classBankLoan_adb978b7ea37e3b0386e19d2c42b91982}\index{BankLoan@{BankLoan}!Set\_Loan\_Amount@{Set\_Loan\_Amount}}
+\index{Set\_Loan\_Amount@{Set\_Loan\_Amount}!BankLoan@{BankLoan}}
+\doxysubsubsection{\texorpdfstring{Set\_Loan\_Amount()}{Set\_Loan\_Amount()}}
+{\footnotesize\ttfamily \label{classBankLoan_adb978b7ea37e3b0386e19d2c42b91982} 
+void Bank\+Loan\+::\+Set\+\_\+\+Loan\+\_\+\+Amount (\begin{DoxyParamCaption}\item[{float}]{m\+\_\+\+Loan\+\_\+\+Amount}{}\end{DoxyParamCaption})}
+
+
+
+Sets the loan amount. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Loan\+\_\+\+Amount} & The amount of the loan. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classBankLoan_a5b38f022f514c0aed56711f005c53185}\index{BankLoan@{BankLoan}!Set\_Loan\_Duration@{Set\_Loan\_Duration}}
+\index{Set\_Loan\_Duration@{Set\_Loan\_Duration}!BankLoan@{BankLoan}}
+\doxysubsubsection{\texorpdfstring{Set\_Loan\_Duration()}{Set\_Loan\_Duration()}}
+{\footnotesize\ttfamily \label{classBankLoan_a5b38f022f514c0aed56711f005c53185} 
+void Bank\+Loan\+::\+Set\+\_\+\+Loan\+\_\+\+Duration (\begin{DoxyParamCaption}\item[{int}]{m\+\_\+\+Loan\+\_\+\+Duration}{}\end{DoxyParamCaption})}
+
+
+
+Sets the loan duration and updates the interest ratio accordingly. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Loan\+\_\+\+Duration} & The duration of the loan in months. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+loan\+\_\+acount.\+h\item 
+loan\+\_\+acount.\+cpp\end{DoxyCompactItemize}

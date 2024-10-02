@@ -1,0 +1,92 @@
+\doxysection{Customer\+\_\+operations Class Reference}
+\hypertarget{classCustomer__operations}{}\label{classCustomer__operations}\index{Customer\_operations@{Customer\_operations}}
+
+
+Dialog for customer operations such as deposit, withdraw, and balance inquiry.  
+
+
+
+
+{\ttfamily \#include $<$customer\+\_\+operations.\+h$>$}
+
+Inheritance diagram for Customer\+\_\+operations\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classCustomer__operations}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCustomer__operations_a54e6032a0e6d0aa4e43055caaf05088b}{Customer\+\_\+operations}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructs a \doxylink{classCustomer__operations}{Customer\+\_\+operations} dialog. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCustomer__operations_a2e7303296195082268f53b3cd24a134d}{make\+\_\+action}} (Operation\+\_\+\+Type current\+\_\+type)
+\begin{DoxyCompactList}\small\item\em Performs a banking operation based on the specified operation type. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCustomer__operations_abbe29a8102b2e767c45a2ac7ea34cc64}{\texorpdfstring{$\sim$}{\string~}\+Customer\+\_\+operations}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{classCustomer__operations}{Customer\+\_\+operations} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Dialog for customer operations such as deposit, withdraw, and balance inquiry. 
+
+This class handles the UI and operations related to customer transactions, including depositing funds, withdrawing funds, and checking account balance. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCustomer__operations_a54e6032a0e6d0aa4e43055caaf05088b}\index{Customer\_operations@{Customer\_operations}!Customer\_operations@{Customer\_operations}}
+\index{Customer\_operations@{Customer\_operations}!Customer\_operations@{Customer\_operations}}
+\doxysubsubsection{\texorpdfstring{Customer\_operations()}{Customer\_operations()}}
+{\footnotesize\ttfamily \label{classCustomer__operations_a54e6032a0e6d0aa4e43055caaf05088b} 
+Customer\+\_\+operations\+::\+Customer\+\_\+operations (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructs a \doxylink{classCustomer__operations}{Customer\+\_\+operations} dialog. 
+
+This constructor initializes the dialog and sets up the UI elements, including populating the language selection combo box with options.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Pointer to the parent widget for this dialog. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCustomer__operations_abbe29a8102b2e767c45a2ac7ea34cc64}\index{Customer\_operations@{Customer\_operations}!````~Customer\_operations@{\texorpdfstring{$\sim$}{\string~}Customer\_operations}}
+\index{````~Customer\_operations@{\texorpdfstring{$\sim$}{\string~}Customer\_operations}!Customer\_operations@{Customer\_operations}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Customer\_operations()}{\string~Customer\_operations()}}
+{\footnotesize\ttfamily \label{classCustomer__operations_abbe29a8102b2e767c45a2ac7ea34cc64} 
+Customer\+\_\+operations\+::\texorpdfstring{$\sim$}{\string~}\+Customer\+\_\+operations (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destructor for the \doxylink{classCustomer__operations}{Customer\+\_\+operations} class. 
+
+Cleans up the allocated UI resources. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCustomer__operations_a2e7303296195082268f53b3cd24a134d}\index{Customer\_operations@{Customer\_operations}!make\_action@{make\_action}}
+\index{make\_action@{make\_action}!Customer\_operations@{Customer\_operations}}
+\doxysubsubsection{\texorpdfstring{make\_action()}{make\_action()}}
+{\footnotesize\ttfamily \label{classCustomer__operations_a2e7303296195082268f53b3cd24a134d} 
+void Customer\+\_\+operations\+::make\+\_\+action (\begin{DoxyParamCaption}\item[{Operation\+\_\+\+Type}]{current\+\_\+type}{}\end{DoxyParamCaption})}
+
+
+
+Performs a banking operation based on the specified operation type. 
+
+This function retrieves user input for the customer\textquotesingle{}s name, national number, password, and the amount for the transaction. It validates the inputs and checks if an account exists with the provided national number. Depending on the operation type (deposit, withdraw, or balance enquiry), it executes the corresponding action.
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+\_\+type} & The type of operation to perform, which can be one of\+:
+\begin{DoxyItemize}
+\item Operation\+\_\+\+Type\+::\+DEPOSIT
+\item Operation\+\_\+\+Type\+::\+WITHDRAW
+\item Operation\+\_\+\+Type\+::\+BALANCE\+\_\+\+ENQUIRY
+\end{DoxyItemize}\\
+\hline
+\end{DoxyParams}
+This function also displays appropriate error messages if any input validation fails or if the specified account does not exist. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+customer\+\_\+operations.\+h\item 
+customer\+\_\+operations.\+cpp\end{DoxyCompactItemize}

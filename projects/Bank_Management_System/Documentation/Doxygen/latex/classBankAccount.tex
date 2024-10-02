@@ -1,0 +1,426 @@
+\doxysection{Bank\+Account Class Reference}
+\hypertarget{classBankAccount}{}\label{classBankAccount}\index{BankAccount@{BankAccount}}
+
+
+This class represents a bank account with various operations such as depositing, withdrawing, and managing different account types.  
+
+
+
+
+{\ttfamily \#include $<$account.\+h$>$}
+
+Inheritance diagram for Bank\+Account\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.929825cm]{classBankAccount}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_aba14efe1441a2bf2b8436ecced2501d2}\label{classBankAccount_aba14efe1441a2bf2b8436ecced2501d2} 
+void {\bfseries Account\+\_\+information} (Account\+\_\+\+Type\+\_\+\+Id ACC\+\_\+\+ID)
+\end{DoxyCompactItemize}
+\begin{Indent}\textbf{ Bank\+Account\+::Bank\+Account}\par
+{\em Constructs a \doxylink{classBankAccount}{Bank\+Account} object with customer details. This constructor initializes a \doxylink{classBankAccount}{Bank\+Account} instance with the provided customer information such as name, national number, password, address, age, phone number, and email.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Customer\+\_\+\+Name} & The name of the customer. \\
+\hline
+{\em Customer\+\_\+\+NN} & The national number of the customer. \\
+\hline
+{\em Customer\+\_\+\+Pass} & The password of the customer. \\
+\hline
+{\em Customer\+\_\+\+Address} & The address of the customer. \\
+\hline
+{\em Customer\+\_\+\+Age} & The age of the customer. \\
+\hline
+{\em m\+\_\+\+Customer\+\_\+phone} & The phone number of the customer. \\
+\hline
+{\em m\+\_\+\+Customer\+\_\+\+Email} & The email address of the customer. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_a41699b1d00c5dc3b8b8bc400c9e035b4}\label{classBankAccount_a41699b1d00c5dc3b8b8bc400c9e035b4} 
+{\bfseries Bank\+Account} (QString Customer\+\_\+\+Name, QString Customer\+\_\+\+NN, QString Customer\+\_\+\+Pass, QString Customer\+\_\+\+Address="{} "{}, int Customer\+\_\+\+Age=0, QString m\+\_\+\+Customer\+\_\+phone="{} "{}, QString m\+\_\+\+Customer\+\_\+\+Email="{} "{})
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Set\+\_\+\+Customer\+\_\+\+Name}\par
+{\em Sets the customer\textquotesingle{}s name.
+
+This function updates the customer\textquotesingle{}s name in the \doxylink{classBankAccount}{Bank\+Account} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Customer\+\_\+\+Name} & The new name of the customer. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_adbed84d6fb7274e1ea9d85d6e9103a2c}\label{classBankAccount_adbed84d6fb7274e1ea9d85d6e9103a2c} 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Name} (QString Customer\+\_\+\+Name)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Set\+\_\+\+Customer\+\_\+\+NN}\par
+{\em Sets the customer\textquotesingle{}s national number.
+
+This function updates the customer\textquotesingle{}s national number in the \doxylink{classBankAccount}{Bank\+Account} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Customer\+\_\+\+NN} & The new national number of the customer. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_a19f757cc9d3399b4dd0544ffc8ab0389}\label{classBankAccount_a19f757cc9d3399b4dd0544ffc8ab0389} 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+NN} (QString Customer\+\_\+\+NN)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Set\+\_\+\+Customer\+\_\+\+Pass}\par
+{\em Sets the customer\textquotesingle{}s password.
+
+This function updates the customer\textquotesingle{}s password in the \doxylink{classBankAccount}{Bank\+Account} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Customer\+\_\+\+Pass} & The new password of the customer. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_a8e15d01145efc54b9ff1ec2a197fcb2b}\label{classBankAccount_a8e15d01145efc54b9ff1ec2a197fcb2b} 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Pass} (QString Customer\+\_\+\+Pass)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Set\+\_\+\+Customer\+\_\+\+Address}\par
+{\em Sets the customer\textquotesingle{}s address.
+
+This function updates the customer\textquotesingle{}s address in the \doxylink{classBankAccount}{Bank\+Account} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Customer\+\_\+\+Address} & The new address of the customer. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_aaf4c88d2b8c128c4c29f52fe60f4c72c}\label{classBankAccount_aaf4c88d2b8c128c4c29f52fe60f4c72c} 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Address} (QString Customer\+\_\+\+Address)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Set\+\_\+\+Customer\+\_\+\+Age}\par
+{\em Sets the customer\textquotesingle{}s age.
+
+This function updates the customer\textquotesingle{}s age in the \doxylink{classBankAccount}{Bank\+Account} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Customer\+\_\+\+Age} & The new age of the customer. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_a5d9926f6e931e8549f850cbe519343fb}\label{classBankAccount_a5d9926f6e931e8549f850cbe519343fb} 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Age} (int Customer\+\_\+\+Age)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Set\+\_\+\+Customer\+\_\+\+Phone}\par
+{\em Sets the customer\textquotesingle{}s phone number.
+
+This function updates the customer\textquotesingle{}s phone number in the \doxylink{classBankAccount}{Bank\+Account} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Customer\+\_\+phone} & The new phone number of the customer. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_a66d258e992e5c9d4523d59d52875fec3}\label{classBankAccount_a66d258e992e5c9d4523d59d52875fec3} 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Phone} (QString m\+\_\+\+Customer\+\_\+phone)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Set\+\_\+\+Customer\+\_\+\+Email}\par
+{\em Sets the customer\textquotesingle{}s email address.
+
+This function updates the customer\textquotesingle{}s email address in the \doxylink{classBankAccount}{Bank\+Account} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Customer\+\_\+\+Email} & The new email address of the customer. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_ac6a9b6aec04de78b9b01e244f0711ad2}\label{classBankAccount_ac6a9b6aec04de78b9b01e244f0711ad2} 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Email} (QString m\+\_\+\+Customer\+\_\+\+Email)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Set\+\_\+\+Credit\+\_\+\+Limit}\par
+{\em Sets the credit limit for the customer.
+
+This function updates the customer\textquotesingle{}s credit limit in the \doxylink{classBankAccount}{Bank\+Account} instance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Credit\+\_\+\+Limit} & The new credit limit for the customer. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_a12c331233e728e2c34f1ddf211b0b836}\label{classBankAccount_a12c331233e728e2c34f1ddf211b0b836} 
+void {\bfseries Set\+\_\+\+Credit\+\_\+\+Limit} (float m\+\_\+\+Credit\+\_\+\+Limit)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Check\+\_\+\+Account\+\_\+\+Info}\par
+{\em Checks the account information against stored records.
+
+This function verifies the customer\textquotesingle{}s national number and corresponding name and password in the database. If the information matches, it returns the customer\textquotesingle{}s ID; otherwise, it returns -\/1.
+
+\begin{DoxyReturn}{Returns}
+Returns the customer\textquotesingle{}s ID if the information is correct; otherwise, returns -\/1 if the national number is not found or if the information does not match. 
+\end{DoxyReturn}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_ae4dce0f97d97a011424ad88c6a5bdd68}\label{classBankAccount_ae4dce0f97d97a011424ad88c6a5bdd68} 
+int {\bfseries Check\+\_\+\+Account\+\_\+\+Info} (void)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::QMessage\+Box\+\_\+\+Display}\par
+{\em Displays a message box with a specified text and icon type.
+
+This function creates and displays a QMessage\+Box with a given message and icon type. It supports different types of messages including questions, information, critical alerts, and warnings.
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & The message text to be displayed in the message box. \\
+\hline
+{\em type} & The type of the message box, determining the icon and button configuration (e.\+g., QMessage\+Box\+::\+Question, QMessage\+Box\+::\+Information, QMessage\+Box\+::\+Critical, QMessage\+Box\+::\+Warning).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns the result of the message box (e.\+g., QMessage\+Box\+::\+Yes, QMessage\+Box\+::\+No) based on user interaction. 
+\end{DoxyReturn}
+}\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classBankAccount_a66af4a56ed0b8f646e6c44a1059f77b9}{deposit}} (int Customer\+\_\+id, float m\+\_\+\+Amount)
+\begin{DoxyCompactList}\small\item\em Deposits an amount into the bank account of a customer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankAccount_a44a06e5694259bd7ec1a9b11a7966bf4}{withdraw}} (int Customer\+\_\+id, float m\+\_\+\+Amount)
+\begin{DoxyCompactList}\small\item\em Withdraws an amount from the bank account of a customer. \end{DoxyCompactList}\item 
+\Hypertarget{classBankAccount_a5cbb1a11b592237f459c413c3a74abd9}\label{classBankAccount_a5cbb1a11b592237f459c413c3a74abd9} 
+int {\bfseries QMessage\+Box\+\_\+\+Display} (QString text, int type)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::balance\+\_\+\+Enquiry}\par
+{\em Displays the current balance of the customer.
+
+This function retrieves the current balance for the customer identified by their national number and displays it in a message box. }\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_aca19b306536972b18b090497a8f9eb53}\label{classBankAccount_aca19b306536972b18b090497a8f9eb53} 
+void {\bfseries balance\+\_\+\+Enquiry} (void)
+\item 
+void \mbox{\hyperlink{classBankAccount_a54f60ab3a5f28eff186d7a8e947630d3}{Add\+\_\+\+New\+\_\+\+Customer}} (void)
+\begin{DoxyCompactList}\small\item\em Adds a new customer to the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Create\+\_\+\+Saving\+\_\+\+Account}\par
+{\em Creates or updates a saving account for the customer.
+
+This function checks if an account exists for the given national number. If it does, it verifies the customer\textquotesingle{}s name, password, and national number. If all data matches, it either creates a new saving account or updates the existing one with the new balance after a deposit. The transaction details are also logged into the Account\+\_\+\+Transaction table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Saving\+\_\+\+Amount} & The amount to be deposited into the saving account. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_ac816c5f30adf4ceaceabd3668b88a0cc}\label{classBankAccount_ac816c5f30adf4ceaceabd3668b88a0cc} 
+void {\bfseries Create\+\_\+\+Saving\+\_\+\+Account} (float Saving\+\_\+\+Amount)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Create\+\_\+\+Loan\+\_\+\+Account}\par
+{\em Creates or updates a loan account for the customer.
+
+This function checks if an account exists for the given national number. It verifies the customer\textquotesingle{}s name, password, and national number. If the data matches, it calculates the new balance after applying the loan amount and interest. If the loan account does not exist, it creates a new one; otherwise, it updates the existing account with the new balance and loan duration. The transaction details are logged into the Account\+\_\+\+Transaction table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Loan\+\_\+\+Amount} & The amount of the loan to be created. \\
+\hline
+{\em Loan\+\_\+\+Duration} & The duration of the loan in months. \\
+\hline
+{\em Interest\+\_\+\+Rate} & The interest rate for the loan. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_a9446e27399286e02821228a2a7a09028}\label{classBankAccount_a9446e27399286e02821228a2a7a09028} 
+void {\bfseries Create\+\_\+\+Loan\+\_\+\+Account} (float Loan\+\_\+\+Amount, int Loan\+\_\+\+Duration, float Interest\+\_\+\+Rate)
+\end{DoxyCompactItemize}
+\end{Indent}
+\begin{Indent}\textbf{ Bank\+Account\+::Create\+\_\+\+Checking\+\_\+\+Account}\par
+{\em Creates or updates a checking account for the customer.
+
+This function checks if an account exists for the given national number. It verifies the customer\textquotesingle{}s name, password, and national number. If the data matches, it creates a new checking account with the specified amount if it doesn\textquotesingle{}t exist, or updates the balance of the existing checking account by deducting the specified amount. The transaction details are logged into the Account\+\_\+\+Transaction table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Cheking\+\_\+\+Amount} & The amount to be deposited into or deducted from the checking account. \\
+\hline
+\end{DoxyParams}
+}\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classBankAccount_ad4bd86de1085a03dc2ed3c3fa9fbb013}\label{classBankAccount_ad4bd86de1085a03dc2ed3c3fa9fbb013} 
+void {\bfseries Create\+\_\+\+Checking\+\_\+\+Account} (float Cheking\+\_\+\+Amount)
+\item 
+QString \mbox{\hyperlink{classBankAccount_a02ee565d39580f55244e91b3a0fa1b39}{generate\+OTP}} ()
+\begin{DoxyCompactList}\small\item\em Generates a random One-\/\+Time Password (OTP). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankAccount_a4daa69715b7b9e1506966c6987392363}{send\+Email}} (const QString \&otp, const QString \&recipient\+Email)
+\begin{DoxyCompactList}\small\item\em Sends an OTP to a specified email address. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{Indent}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBankDataBase}{Bank\+Data\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBankDataBase_a5d9b735146e8dc2f635ef6a244a1bb3d}{Initialize\+\_\+\+Data\+\_\+\+Base}} (QString db\+Name)
+\begin{DoxyCompactList}\small\item\em Initializes the bank database by creating necessary tables and establishing a connection. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a9e1354c2b90094fb15a409331ad0e5f9}{create\+Table}} (QString sql)
+\begin{DoxyCompactList}\small\item\em Creates a table in the database using the provided SQL query. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a064911177618d2bde1747b311aa0d487}{insert\+Data}} (QString String\+To\+Insert)
+\begin{DoxyCompactList}\small\item\em Inserts data into the database using the provided SQL query. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a4874f3009039c80771e71ebe49887803}{Return\+\_\+\+Item}} (QString Table\+Name, QString select, QString condition)
+\begin{DoxyCompactList}\small\item\em Retrieves a specific item from the database based on the given conditions. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a74111d44bce10c68eab40f1577cef4a0}{delete\+Data}} (QString Table\+\_\+name, int id)
+\begin{DoxyCompactList}\small\item\em Deletes a record from the specified table based on the given \doxylink{classCustomer}{Customer} ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a6d18a7960a82cd8620b972961e74146f}{update\+Data}} (QString newsql)
+\begin{DoxyCompactList}\small\item\em Updates data in the database using the provided SQL query. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBankDataBase_ad530d58c9a96baf024c02b45279fe83f}{check\+Table\+Exists}} (QString table\+Name)
+\begin{DoxyCompactList}\small\item\em Checks if a specified table exists in the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_a6743a102bd51adc5bb11ea2a49b3c856}{Daily\+\_\+\+Updating}} (void)
+\begin{DoxyCompactList}\small\item\em Performs daily updates on saving , loan and checking accounts. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_af256c6ce464eca9a2624d5538716cb16}{Get\+\_\+\+Data\+\_\+\+Base\+\_\+\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the name of the database. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a55739d7ad2bae21fb1333c0a4a475f78}{hash\+Password}} (const QString \&password)
+\begin{DoxyCompactList}\small\item\em Hashes a password using SHA-\/256. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_abe13b1f15f41c7f7c239d21bbc288c34}{Write\+\_\+\+Summary}} (void)
+\begin{DoxyCompactList}\small\item\em Writes a daily summary of transactions to the database. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBankDataBase_ac21acac11648c77daee4b6c93318ac5d}{\texorpdfstring{$\sim$}{\string~}\+Bank\+Data\+Base}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{classBankDataBase}{Bank\+Data\+Base} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents a bank account with various operations such as depositing, withdrawing, and managing different account types. 
+
+It allows the user to perform normal banking operations, create loan accounts, saving accounts, and checking accounts, and handles balance inquiries. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classBankAccount_a54f60ab3a5f28eff186d7a8e947630d3}\index{BankAccount@{BankAccount}!Add\_New\_Customer@{Add\_New\_Customer}}
+\index{Add\_New\_Customer@{Add\_New\_Customer}!BankAccount@{BankAccount}}
+\doxysubsubsection{\texorpdfstring{Add\_New\_Customer()}{Add\_New\_Customer()}}
+{\footnotesize\ttfamily \label{classBankAccount_a54f60ab3a5f28eff186d7a8e947630d3} 
+void Bank\+Account\+::\+Add\+\_\+\+New\+\_\+\+Customer (\begin{DoxyParamCaption}\item[{void}]{}{}\end{DoxyParamCaption})}
+
+
+
+Adds a new customer to the database. 
+
+This method handles the process of adding a new customer by collecting user input, generating an OTP for verification, and inserting customer details into the database.
+
+The method constructs an SQL query to insert customer information into the "{}\+Person"{} table. It generates a One-\/\+Time Password (OTP), which is intended to be sent via email for user verification. The user is then prompted to enter the OTP to confirm their identity.
+
+If the user provides a correct OTP, the method attempts to insert the new customer\textquotesingle{}s details into the database. A success or failure message is displayed based on the result of the insertion.
+
+\begin{DoxyNote}{Note}
+The actual sending of the OTP email is commented out in this implementation. 
+\end{DoxyNote}
+\Hypertarget{classBankAccount_a66af4a56ed0b8f646e6c44a1059f77b9}\index{BankAccount@{BankAccount}!deposit@{deposit}}
+\index{deposit@{deposit}!BankAccount@{BankAccount}}
+\doxysubsubsection{\texorpdfstring{deposit()}{deposit()}}
+{\footnotesize\ttfamily \label{classBankAccount_a66af4a56ed0b8f646e6c44a1059f77b9} 
+void Bank\+Account\+::deposit (\begin{DoxyParamCaption}\item[{int}]{Customer\+\_\+id}{, }\item[{float}]{m\+\_\+\+Amount}{}\end{DoxyParamCaption})}
+
+
+
+Deposits an amount into the bank account of a customer. 
+
+This method handles the deposit process, including balance update, OTP generation and validation, and transaction logging.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Customer\+\_\+id} & The ID of the customer making the deposit. \\
+\hline
+{\em m\+\_\+\+Amount} & The amount to deposit into the account.\\
+\hline
+\end{DoxyParams}
+The method retrieves the current balance, calculates the new balance, generates an OTP, and sends it via email. It prompts the user to enter the OTP for verification. If the user provides a correct OTP, the deposit is processed, and the new balance is updated in the database.
+
+If the deposit is successful, the transaction is logged, and the user is prompted whether they want a report of the last operation. If the user has a checking account and the new balance is non-\/negative, the checking account is deleted.
+
+If the user cancels the operation or does not provide valid input, appropriate warnings are displayed. \Hypertarget{classBankAccount_a02ee565d39580f55244e91b3a0fa1b39}\index{BankAccount@{BankAccount}!generateOTP@{generateOTP}}
+\index{generateOTP@{generateOTP}!BankAccount@{BankAccount}}
+\doxysubsubsection{\texorpdfstring{generateOTP()}{generateOTP()}}
+{\footnotesize\ttfamily \label{classBankAccount_a02ee565d39580f55244e91b3a0fa1b39} 
+QString Bank\+Account\+::generate\+OTP (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Generates a random One-\/\+Time Password (OTP). 
+
+This method generates a 6-\/digit OTP using a random number generator seeded from a hardware random device. The OTP is returned as a QString.
+
+\begin{DoxyReturn}{Returns}
+A QString containing the generated 6-\/digit OTP. 
+\end{DoxyReturn}
+\Hypertarget{classBankAccount_a4daa69715b7b9e1506966c6987392363}\index{BankAccount@{BankAccount}!sendEmail@{sendEmail}}
+\index{sendEmail@{sendEmail}!BankAccount@{BankAccount}}
+\doxysubsubsection{\texorpdfstring{sendEmail()}{sendEmail()}}
+{\footnotesize\ttfamily \label{classBankAccount_a4daa69715b7b9e1506966c6987392363} 
+void Bank\+Account\+::send\+Email (\begin{DoxyParamCaption}\item[{const QString \&}]{otp}{, }\item[{const QString \&}]{recipient\+Email}{}\end{DoxyParamCaption})}
+
+
+
+Sends an OTP to a specified email address. 
+
+This method uses a Python script to send an OTP via email. It starts a QProcess to execute the Python script, passing the OTP and the recipient\textquotesingle{}s email address as arguments.
+
+
+\begin{DoxyParams}{Parameters}
+{\em otp} & The One-\/\+Time Password to be sent. \\
+\hline
+{\em recipient\+Email} & The email address of the recipient.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyNote}{Note}
+Ensure that the Python script specified in {\ttfamily script\+Path} is configured correctly to send emails. 
+\end{DoxyNote}
+\Hypertarget{classBankAccount_a44a06e5694259bd7ec1a9b11a7966bf4}\index{BankAccount@{BankAccount}!withdraw@{withdraw}}
+\index{withdraw@{withdraw}!BankAccount@{BankAccount}}
+\doxysubsubsection{\texorpdfstring{withdraw()}{withdraw()}}
+{\footnotesize\ttfamily \label{classBankAccount_a44a06e5694259bd7ec1a9b11a7966bf4} 
+void Bank\+Account\+::withdraw (\begin{DoxyParamCaption}\item[{int}]{Customer\+\_\+id}{, }\item[{float}]{m\+\_\+\+Amount}{}\end{DoxyParamCaption})}
+
+
+
+Withdraws an amount from the bank account of a customer. 
+
+This method handles the withdrawal process, including balance verification, OTP generation and validation, and potential actions when the balance is insufficient. If the withdrawal amount exceeds the current balance, the user is prompted to open a checking account or to withdraw the remaining balance.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Customer\+\_\+id} & The ID of the customer making the withdrawal. \\
+\hline
+{\em m\+\_\+\+Amount} & The amount to withdraw from the account.\\
+\hline
+\end{DoxyParams}
+The method generates an OTP, sends it via email, and prompts the user to enter the OTP for verification. If the user provides a correct OTP, the withdrawal is processed. The method also records the transaction and displays confirmation messages.
+
+If the new balance is negative and exceeds the credit limit, an error message is displayed. If the user opts to open a checking account, it will create a new account with the remaining balance and update the person\textquotesingle{}s balance accordingly.
+
+If the user cancels the operation or does not provide valid input, appropriate warnings are displayed. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+account.\+h\item 
+account.\+cpp\end{DoxyCompactItemize}

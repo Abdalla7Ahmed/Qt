@@ -1,0 +1,183 @@
+@startuml
+class Account {
+    - ui: Ui::Account*
+    - saving_account: Saving_Acount*
+    - checking_account: Checking_Account*
+    - loan_account: Loan_Acount*
+    + Account(QWidget *parent = nullptr)
+    + ~Account()
+    + on_pushButton_loan_clicked()
+    + on_pushButton_saving_clicked()
+    + on_pushButton_clicked()
+    + on_pushButton_2_clicked()
+    + on_pushButton_Edit_clicked()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_pushButton_3_clicked()
+    + eventFilter(QObject *watched, QEvent *event): bool
+}
+
+class Checking_Account {
+    - ui: Ui::Checking_Account*
+    + Checking_Account(QWidget *parent = nullptr)
+    + ~Checking_Account()
+    + on_pushButton_Home_clicked()
+    + on_pushButton_Back_clicked()
+    + on_pushButton_Next_clicked()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_checkBox_clicked()
+}
+
+class Customer_Edit {
+    - ui: Ui::Customer_Edit*
+    + Customer_Edit(QWidget *parent = nullptr)
+    + ~Customer_Edit()
+    + on_pushButton_Load_clicked()
+    + on_pushButton_CN_clicked()
+    + on_pushButton_Submit_clicked()
+    + on_pushButton_Home_clicked()
+    + on_pushButton_clicked()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_checkBox_clicked()
+    + on_checkBox_2_clicked()
+    + Check_Authorization(): int
+    + eventFilter(QObject *watched, QEvent *event): bool
+}
+
+class Customer_operations {
+    - ui: Ui::Customer_operations*
+    - current_type: Operation_Type
+    + Customer_operations(QWidget *parent = nullptr)
+    + ~Customer_operations()
+    + make_action(Operation_Type current_type)
+    + on_pushButton_Home_clicked()
+    + on_pushButton_Back_clicked()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_pushButton_Deposit_clicked()
+    + on_pushButton_Withdraw_clicked()
+    + on_pushButton_Balance_clicked()
+    + on_checkBox_clicked()
+}
+
+class Customer {
+    - ui: Ui::Customer*
+    + Customer(QWidget *parent = nullptr)
+    + ~Customer()
+    + on_pushButton_Home_clicked()
+    + on_pushButton_Next_clicked()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_pushButton_clicked()
+    + on_checkBox_clicked()
+}
+
+class DataBase {
+    - ui: Ui::DataBase*
+    + DataBase(QWidget *parent = nullptr)
+    + ~DataBase()
+}
+
+class Edit_Account {
+    - ui: Ui::Edit_Account*
+    - account_type: Account_Type
+    - language: QString
+    + Edit_Account(QWidget *parent = nullptr)
+    + ~Edit_Account()
+    + Check_Authorization(): int
+    + on_pushButton_Home_clicked()
+    + on_pushButton_Back_clicked()
+    + on_comboBox_2_currentTextChanged(const QString &arg1)
+    + on_pushButton_clicked()
+    + on_pushButton_2_clicked()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_pushButton_3_clicked()
+    + on_checkBox_clicked()
+}
+
+class Help {
+    - ui: Ui::Help*
+    + Help(QWidget *parent = nullptr)
+    + ~Help()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_pushButton_clicked()
+}
+
+class Loan_Acount {
+    - ui: Ui::Loan_Acount*
+    + Loan_Acount(QWidget *parent = nullptr)
+    + ~Loan_Acount()
+    + on_pushButton_Home_clicked()
+    + on_pushButton_Back_clicked()
+    + on_pushButton_Next_clicked()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_checkBox_clicked()
+}
+
+class MainWindow {
+    - ui: Ui::MainWindow*
+    - timer: QTimer*
+    - timer_Update: QTimer*
+    - Customer_Window: Customer*
+    - account_Window: Account*
+    - show: Show*
+    - help: Help*
+    - customer_edit: Customer_Edit*
+    - bankdatabase: BankDataBase*
+    + MainWindow(QWidget *parent = nullptr)
+    + ~MainWindow()
+    + on_pushButton_Customer_clicked()
+    + on_pushButton_Operations_clicked()
+    + on_pushButton_Help_clicked()
+    + on_pushButton_show_clicked()
+    + TimeOutCallBack()
+    + Time_Update_CallBack()
+    + eventFilter(QObject *watched, QEvent *event): bool
+}
+
+class Saving_Acount {
+    - ui: Ui::Saving_Acount*
+    + Saving_Acount(QWidget *parent = nullptr)
+    + ~Saving_Acount()
+    + on_pushButton_Home_clicked()
+    + on_pushButton_Back_clicked()
+    + on_pushButton_Next_clicked()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_checkBox_clicked()
+}
+
+class Show {
+    - ui: Ui::Show*
+    - tableView: QTableView*
+    - layout: QVBoxLayout*
+    - m_Type: QString
+    + Show(QWidget *parent = nullptr)
+    + ~Show()
+    + on_pushButton_clicked()
+    + on_comboBox_currentTextChanged(const QString &arg1)
+    + on_pushButton_2_clicked()
+    + on_checkBox_clicked()
+    + on_comboBox_2_currentTextChanged(const QString &arg1)
+}
+
+' Relationships
+Account --|>QDialog
+Checking_Account --|>QDialog
+Customer_Edit --|>QDialog
+Customer_Edit --|>BankAccount
+
+Customer_operations --|>QDialog
+Customer --|>QDialog
+DataBase --|>QDialog
+Edit_Account --|>QDialog
+Edit_Account --|>BankAccount
+DataBase --|>QDialog
+Help --|>QDialog
+
+
+Loan_Acount --|>QDialog
+Saving_Acount --|>QDialog
+Show --|>QDialog
+Show --|>BankDataBase
+
+MainWindow --|>QMainWindow
+
+@enduml
+

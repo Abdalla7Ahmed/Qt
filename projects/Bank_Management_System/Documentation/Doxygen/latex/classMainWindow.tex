@@ -1,0 +1,95 @@
+\doxysection{Main\+Window Class Reference}
+\hypertarget{classMainWindow}{}\label{classMainWindow}\index{MainWindow@{MainWindow}}
+
+
+The \doxylink{classMainWindow}{Main\+Window} class serves as the main interface of the application.  
+
+
+
+
+{\ttfamily \#include $<$mainwindow.\+h$>$}
+
+Inheritance diagram for Main\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classMainWindow}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMainWindow_a996c5a2b6f77944776856f08ec30858d}{Main\+Window}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructs the \doxylink{classMainWindow}{Main\+Window} object and initializes its UI components. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classMainWindow_ae98d00a93bc118200eeef9f9bba1dba7}{\texorpdfstring{$\sim$}{\string~}\+Main\+Window}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{classMainWindow}{Main\+Window} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classMainWindow_ade305265b2120df2489a5ebeb07ebbe1}{event\+Filter}} (QObject \texorpdfstring{$\ast$}{*}watched, QEvent \texorpdfstring{$\ast$}{*}event) override
+\begin{DoxyCompactList}\small\item\em Filters events for specific widgets to provide hover effects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \doxylink{classMainWindow}{Main\+Window} class serves as the main interface of the application. 
+
+This class inherits from QMain\+Window and contains various slots to handle user interactions with the main window, such as navigating to customer operations, showing help, and displaying account information. It also manages timers for periodic updates. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classMainWindow_a996c5a2b6f77944776856f08ec30858d}\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\index{MainWindow@{MainWindow}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{MainWindow()}{MainWindow()}}
+{\footnotesize\ttfamily \label{classMainWindow_a996c5a2b6f77944776856f08ec30858d} 
+Main\+Window\+::\+Main\+Window (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})}
+
+
+
+Constructs the \doxylink{classMainWindow}{Main\+Window} object and initializes its UI components. 
+
+This constructor sets up the user interface, installs event filters for button hover events, initializes timers for periodic updates, and sets up the bank database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The parent widget (default is nullptr). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMainWindow_ae98d00a93bc118200eeef9f9bba1dba7}\index{MainWindow@{MainWindow}!````~MainWindow@{\texorpdfstring{$\sim$}{\string~}MainWindow}}
+\index{````~MainWindow@{\texorpdfstring{$\sim$}{\string~}MainWindow}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}MainWindow()}{\string~MainWindow()}}
+{\footnotesize\ttfamily \label{classMainWindow_ae98d00a93bc118200eeef9f9bba1dba7} 
+Main\+Window\+::\texorpdfstring{$\sim$}{\string~}\+Main\+Window (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destructor for the \doxylink{classMainWindow}{Main\+Window} class. 
+
+This destructor cleans up the user interface resources allocated for the \doxylink{classMainWindow}{Main\+Window}. It deletes the {\ttfamily ui} pointer, ensuring proper memory management. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classMainWindow_ade305265b2120df2489a5ebeb07ebbe1}\index{MainWindow@{MainWindow}!eventFilter@{eventFilter}}
+\index{eventFilter@{eventFilter}!MainWindow@{MainWindow}}
+\doxysubsubsection{\texorpdfstring{eventFilter()}{eventFilter()}}
+{\footnotesize\ttfamily \label{classMainWindow_ade305265b2120df2489a5ebeb07ebbe1} 
+bool Main\+Window\+::event\+Filter (\begin{DoxyParamCaption}\item[{QObject \texorpdfstring{$\ast$}{*}}]{watched}{, }\item[{QEvent \texorpdfstring{$\ast$}{*}}]{event}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [protected]}}
+
+
+
+Filters events for specific widgets to provide hover effects. 
+
+This function overrides the event filter to change the appearance of buttons when the mouse enters or leaves their area. It adjusts the button\textquotesingle{}s style sheet dynamically based on hover events.
+
+
+\begin{DoxyParams}{Parameters}
+{\em watched} & The object being monitored for events. \\
+\hline
+{\em event} & The event being processed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if the event is handled; otherwise, it returns the base class implementation. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+mainwindow.\+h\item 
+mainwindow.\+cpp\end{DoxyCompactItemize}

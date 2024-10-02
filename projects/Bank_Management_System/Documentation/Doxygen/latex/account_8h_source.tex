@@ -1,0 +1,103 @@
+\doxysection{account.\+h}
+\hypertarget{account_8h_source}{}\label{account_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ ACCOUNT\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ ACCOUNT\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}database.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QMessageBox>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QCryptographicHash>}}
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSaving__Acount}{Saving\_Acount}};}
+\DoxyCodeLine{00009\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classChecking__Account}{Checking\_Account}};}
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classLoan__Acount}{Loan\_Acount}};}
+\DoxyCodeLine{00011\ \textcolor{comment}{//\ class\ Customer\_operations;}}
+\DoxyCodeLine{00012\ \textcolor{keyword}{namespace\ }Ui}
+\DoxyCodeLine{00013\ \{}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classAccount}{Account}};}
+\DoxyCodeLine{00015\ \}}
+\DoxyCodeLine{00027\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classAccount}{Account}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00028\ \{}
+\DoxyCodeLine{00029\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00030\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00031\ \ \ \ \ Ui::Account\ *ui;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00032\ \ \ \ \ \mbox{\hyperlink{classSaving__Acount}{Saving\_Acount}}\ *saving\_account;\ \ \ \ \ \ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{classChecking__Account}{Checking\_Account}}\ *checking\_account;\ }
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{classLoan__Acount}{Loan\_Acount}}\ *loan\_account;\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classAccount}{Account}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{classAccount}{\string~Account}}();}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_loan\_clicked();}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_saving\_clicked();}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_clicked();}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_2\_clicked();}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_Edit\_clicked();}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_comboBox\_currentTextChanged(\textcolor{keyword}{const}\ QString\ \&arg1);}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_3\_clicked();}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{bool}\ eventFilter(QObject\ *watched,\ QEvent\ *event)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00056\ \};}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00066\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classBankAccount}{BankAccount}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classBankDataBase}{BankDataBase}}}
+\DoxyCodeLine{00067\ \{}
+\DoxyCodeLine{00068\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keyword}{enum\ class}\ Account\_Type\_Id\ :\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{char}}
+\DoxyCodeLine{00076\ \ \ \ \ \{}
+\DoxyCodeLine{00077\ \ \ \ \ \ \ \ \ CHECKING\_ACCOUNT\_ID,}
+\DoxyCodeLine{00078\ \ \ \ \ \ \ \ \ SAVING\_ACOUNT\_ID,}
+\DoxyCodeLine{00079\ \ \ \ \ \ \ \ \ LOAN\_ID}
+\DoxyCodeLine{00080\ }
+\DoxyCodeLine{00081\ \ \ \ \ \};}
+\DoxyCodeLine{00082\ \ \ \ \ QString\ Customer\_Name;\ \ \ \ \ \ \ }
+\DoxyCodeLine{00083\ \ \ \ \ QString\ Customer\_NN;\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00084\ \ \ \ \ QString\ Customer\_Pass;\ \ \ \ \ \ \ }
+\DoxyCodeLine{00085\ \ \ \ \ QString\ m\_Customer\_phone;\ \ \ \ }
+\DoxyCodeLine{00086\ \ \ \ \ QString\ m\_Customer\_Email;\ \ \ \ }
+\DoxyCodeLine{00087\ \ \ \ \ \textcolor{keywordtype}{int}\ Customer\_id;\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keywordtype}{float}\ m\_Balance;\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00089\ \ \ \ \ QString\ Customer\_Address;\ \ \ \ }
+\DoxyCodeLine{00090\ \ \ \ \ \textcolor{keywordtype}{int}\ Customer\_Age;\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00091\ \ \ \ \ \textcolor{keywordtype}{float}\ m\_Credit\_Limit\{50000\};\ }
+\DoxyCodeLine{00092\ \ \ \ \ Account\_Type\_Id\ ACC\_ID;\ \ \ \ \ \ }
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00094\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00095\ \ \ \ \ \mbox{\hyperlink{classBankAccount}{BankAccount}}(QString\ Customer\_Name,\ QString\ Customer\_NN,\ QString\ Customer\_Pass,\ QString\ Customer\_Address\ =\ \textcolor{stringliteral}{"{}\ "{}},\ \textcolor{keywordtype}{int}\ Customer\_Age\ =\ 0,\ QString\ m\_Customer\_phone\ =\ \textcolor{stringliteral}{"{}\ "{}},\ QString\ m\_Customer\_Email\ =\ \textcolor{stringliteral}{"{}\ "{}});}
+\DoxyCodeLine{00096\ \ \ \ \ \mbox{\hyperlink{classBankAccount}{BankAccount}}()\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00097\ \ \ \ \ \textcolor{keywordtype}{void}\ Set\_Customer\_Name(QString\ Customer\_Name);}
+\DoxyCodeLine{00098\ \ \ \ \ \textcolor{keywordtype}{void}\ Set\_Customer\_NN(QString\ Customer\_NN);}
+\DoxyCodeLine{00099\ \ \ \ \ \textcolor{keywordtype}{void}\ Set\_Customer\_Pass(QString\ Customer\_Pass);}
+\DoxyCodeLine{00100\ \ \ \ \ \textcolor{keywordtype}{void}\ Set\_Customer\_Address(QString\ Customer\_Address);}
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keywordtype}{void}\ Set\_Customer\_Age(\textcolor{keywordtype}{int}\ Customer\_Age);}
+\DoxyCodeLine{00102\ \ \ \ \ \textcolor{keywordtype}{void}\ Set\_Customer\_Phone(QString\ m\_Customer\_phone);}
+\DoxyCodeLine{00103\ \ \ \ \ \textcolor{keywordtype}{void}\ Set\_Customer\_Email(QString\ m\_Customer\_Email);}
+\DoxyCodeLine{00104\ \ \ \ \ \textcolor{keywordtype}{void}\ Set\_Credit\_Limit(\textcolor{keywordtype}{float}\ m\_Credit\_Limit);}
+\DoxyCodeLine{00105\ \ \ \ \ \textcolor{keywordtype}{int}\ Check\_Account\_Info(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00106\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classBankAccount_a66af4a56ed0b8f646e6c44a1059f77b9}{deposit}}(\textcolor{keywordtype}{int}\ Customer\_id,\ \textcolor{keywordtype}{float}\ m\_Amount);}
+\DoxyCodeLine{00107\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classBankAccount_a44a06e5694259bd7ec1a9b11a7966bf4}{withdraw}}(\textcolor{keywordtype}{int}\ Customer\_id,\ \textcolor{keywordtype}{float}\ m\_Amount);}
+\DoxyCodeLine{00108\ \ \ \ \ \textcolor{keywordtype}{void}\ balance\_Enquiry(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00109\ \ \ \ \ \textcolor{keywordtype}{void}\ Account\_information(Account\_Type\_Id\ ACC\_ID);}
+\DoxyCodeLine{00110\ \ \ \ \ \textcolor{keywordtype}{int}\ QMessageBox\_Display(QString\ text,\ \textcolor{keywordtype}{int}\ type);}
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00112\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classBankAccount_a54f60ab3a5f28eff186d7a8e947630d3}{Add\_New\_Customer}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00113\ }
+\DoxyCodeLine{00114\ \ \ \ \ \textcolor{keywordtype}{void}\ Create\_Saving\_Account(\textcolor{keywordtype}{float}\ Saving\_Amount);}
+\DoxyCodeLine{00115\ \ \ \ \ \textcolor{keywordtype}{void}\ Create\_Loan\_Account(\textcolor{keywordtype}{float}\ Loan\_Amount,\ \textcolor{keywordtype}{int}\ Loan\_Duration,\ \textcolor{keywordtype}{float}\ Interest\_Rate);}
+\DoxyCodeLine{00116\ \ \ \ \ \textcolor{keywordtype}{void}\ Create\_Checking\_Account(\textcolor{keywordtype}{float}\ Cheking\_Amount);}
+\DoxyCodeLine{00117\ }
+\DoxyCodeLine{00118\ \ \ \ \ QString\ \mbox{\hyperlink{classBankAccount_a02ee565d39580f55244e91b3a0fa1b39}{generateOTP}}();}
+\DoxyCodeLine{00119\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classBankAccount_a4daa69715b7b9e1506966c6987392363}{sendEmail}}(\textcolor{keyword}{const}\ QString\ \&otp,\ \textcolor{keyword}{const}\ QString\ \&recipientEmail);}
+\DoxyCodeLine{00120\ \ \ \ \ \mbox{\hyperlink{classBankAccount}{\string~BankAccount}}();}
+\DoxyCodeLine{00121\ \};}
+\DoxyCodeLine{00122\ }
+\DoxyCodeLine{00123\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ ACCOUNT\_H}}
+
+\end{DoxyCode}

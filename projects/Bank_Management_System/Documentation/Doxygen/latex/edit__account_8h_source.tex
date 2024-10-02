@@ -1,0 +1,51 @@
+\doxysection{edit\+\_\+account.\+h}
+\hypertarget{edit__account_8h_source}{}\label{edit__account_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ EDIT\_ACCOUNT\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ EDIT\_ACCOUNT\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}account.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{keyword}{namespace\ }Ui}
+\DoxyCodeLine{00007\ \{}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classEdit__Account}{Edit\_Account}};}
+\DoxyCodeLine{00009\ \}}
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classEdit__Account}{Edit\_Account}}\ :\ \textcolor{keyword}{public}\ QDialog,\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classBankAccount}{BankAccount}}}
+\DoxyCodeLine{00017\ \{}
+\DoxyCodeLine{00018\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00021\ \ \ \ \ Ui::Edit\_Account\ *ui;\ }
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keyword}{enum\ class}\ Account\_Type\ :\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{char}}
+\DoxyCodeLine{00025\ \ \ \ \ \{}
+\DoxyCodeLine{00026\ \ \ \ \ \ \ \ \ LOAN\_ACCOUNT,\ \ \ \ }
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ SAVING\_ACCOUNT,\ \ }
+\DoxyCodeLine{00028\ \ \ \ \ \ \ \ \ CHECKING\_ACCOUNT\ }
+\DoxyCodeLine{00029\ \ \ \ \ \};}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \ \ \ \ Account\_Type\ account\_type\{Account\_Type::LOAN\_ACCOUNT\};\ }
+\DoxyCodeLine{00032\ \ \ \ \ QString\ language;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classEdit__Account_ae5d6ec268e3cb1789eafa4c4174a1678}{Edit\_Account}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classEdit__Account_a095971f36d0f4ef54563ade093e0254c}{Check\_Authorization}}();}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{classEdit__Account_a584f13df328afe676048b2c1f2aea25d}{\string~Edit\_Account}}();}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_Home\_clicked();}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_Back\_clicked();}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_comboBox\_2\_currentTextChanged(\textcolor{keyword}{const}\ QString\ \&arg1);}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_clicked();}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_2\_clicked();}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_comboBox\_currentTextChanged(\textcolor{keyword}{const}\ QString\ \&arg1);}
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_3\_clicked();}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_checkBox\_clicked();}
+\DoxyCodeLine{00051\ \};}
+\DoxyCodeLine{00052\ }
+\DoxyCodeLine{00053\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ EDIT\_ACCOUNT\_H}}
+
+\end{DoxyCode}

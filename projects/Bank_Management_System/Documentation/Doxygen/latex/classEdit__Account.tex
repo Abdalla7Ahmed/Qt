@@ -1,0 +1,194 @@
+\doxysection{Edit\+\_\+\+Account Class Reference}
+\hypertarget{classEdit__Account}{}\label{classEdit__Account}\index{Edit\_Account@{Edit\_Account}}
+
+
+The \doxylink{classEdit__Account}{Edit\+\_\+\+Account} class provides a dialog for editing account information.  
+
+
+
+
+{\ttfamily \#include $<$edit\+\_\+account.\+h$>$}
+
+Inheritance diagram for Edit\+\_\+\+Account\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classEdit__Account}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classEdit__Account_ae5d6ec268e3cb1789eafa4c4174a1678}{Edit\+\_\+\+Account}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructs an \doxylink{classEdit__Account}{Edit\+\_\+\+Account} dialog. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classEdit__Account_a095971f36d0f4ef54563ade093e0254c}{Check\+\_\+\+Authorization}} ()
+\begin{DoxyCompactList}\small\item\em Checks the authorization of the customer based on their credentials. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classEdit__Account_a584f13df328afe676048b2c1f2aea25d}{\texorpdfstring{$\sim$}{\string~}\+Edit\+\_\+\+Account}} ()
+\begin{DoxyCompactList}\small\item\em Destroys the \doxylink{classEdit__Account}{Edit\+\_\+\+Account} dialog. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBankAccount}{Bank\+Account}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Account\+\_\+information} (Account\+\_\+\+Type\+\_\+\+Id ACC\+\_\+\+ID)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Bank\+Account} (QString Customer\+\_\+\+Name, QString Customer\+\_\+\+NN, QString Customer\+\_\+\+Pass, QString Customer\+\_\+\+Address="{} "{}, int Customer\+\_\+\+Age=0, QString m\+\_\+\+Customer\+\_\+phone="{} "{}, QString m\+\_\+\+Customer\+\_\+\+Email="{} "{})
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Name} (QString Customer\+\_\+\+Name)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+NN} (QString Customer\+\_\+\+NN)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Pass} (QString Customer\+\_\+\+Pass)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Address} (QString Customer\+\_\+\+Address)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Age} (int Customer\+\_\+\+Age)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Phone} (QString m\+\_\+\+Customer\+\_\+phone)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Customer\+\_\+\+Email} (QString m\+\_\+\+Customer\+\_\+\+Email)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Set\+\_\+\+Credit\+\_\+\+Limit} (float m\+\_\+\+Credit\+\_\+\+Limit)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries Check\+\_\+\+Account\+\_\+\+Info} (void)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classBankAccount_a66af4a56ed0b8f646e6c44a1059f77b9}{deposit}} (int Customer\+\_\+id, float m\+\_\+\+Amount)
+\begin{DoxyCompactList}\small\item\em Deposits an amount into the bank account of a customer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankAccount_a44a06e5694259bd7ec1a9b11a7966bf4}{withdraw}} (int Customer\+\_\+id, float m\+\_\+\+Amount)
+\begin{DoxyCompactList}\small\item\em Withdraws an amount from the bank account of a customer. \end{DoxyCompactList}\item 
+int {\bfseries QMessage\+Box\+\_\+\+Display} (QString text, int type)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries balance\+\_\+\+Enquiry} (void)
+\item 
+void \mbox{\hyperlink{classBankAccount_a54f60ab3a5f28eff186d7a8e947630d3}{Add\+\_\+\+New\+\_\+\+Customer}} (void)
+\begin{DoxyCompactList}\small\item\em Adds a new customer to the database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Create\+\_\+\+Saving\+\_\+\+Account} (float Saving\+\_\+\+Amount)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Create\+\_\+\+Loan\+\_\+\+Account} (float Loan\+\_\+\+Amount, int Loan\+\_\+\+Duration, float Interest\+\_\+\+Rate)
+\end{DoxyCompactItemize}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries Create\+\_\+\+Checking\+\_\+\+Account} (float Cheking\+\_\+\+Amount)
+\item 
+QString \mbox{\hyperlink{classBankAccount_a02ee565d39580f55244e91b3a0fa1b39}{generate\+OTP}} ()
+\begin{DoxyCompactList}\small\item\em Generates a random One-\/\+Time Password (OTP). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankAccount_a4daa69715b7b9e1506966c6987392363}{send\+Email}} (const QString \&otp, const QString \&recipient\+Email)
+\begin{DoxyCompactList}\small\item\em Sends an OTP to a specified email address. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBankDataBase}{Bank\+Data\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBankDataBase_a5d9b735146e8dc2f635ef6a244a1bb3d}{Initialize\+\_\+\+Data\+\_\+\+Base}} (QString db\+Name)
+\begin{DoxyCompactList}\small\item\em Initializes the bank database by creating necessary tables and establishing a connection. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a9e1354c2b90094fb15a409331ad0e5f9}{create\+Table}} (QString sql)
+\begin{DoxyCompactList}\small\item\em Creates a table in the database using the provided SQL query. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a064911177618d2bde1747b311aa0d487}{insert\+Data}} (QString String\+To\+Insert)
+\begin{DoxyCompactList}\small\item\em Inserts data into the database using the provided SQL query. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a4874f3009039c80771e71ebe49887803}{Return\+\_\+\+Item}} (QString Table\+Name, QString select, QString condition)
+\begin{DoxyCompactList}\small\item\em Retrieves a specific item from the database based on the given conditions. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a74111d44bce10c68eab40f1577cef4a0}{delete\+Data}} (QString Table\+\_\+name, int id)
+\begin{DoxyCompactList}\small\item\em Deletes a record from the specified table based on the given \doxylink{classCustomer}{Customer} ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a6d18a7960a82cd8620b972961e74146f}{update\+Data}} (QString newsql)
+\begin{DoxyCompactList}\small\item\em Updates data in the database using the provided SQL query. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBankDataBase_ad530d58c9a96baf024c02b45279fe83f}{check\+Table\+Exists}} (QString table\+Name)
+\begin{DoxyCompactList}\small\item\em Checks if a specified table exists in the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_a6743a102bd51adc5bb11ea2a49b3c856}{Daily\+\_\+\+Updating}} (void)
+\begin{DoxyCompactList}\small\item\em Performs daily updates on saving , loan and checking accounts. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_af256c6ce464eca9a2624d5538716cb16}{Get\+\_\+\+Data\+\_\+\+Base\+\_\+\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the name of the database. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a55739d7ad2bae21fb1333c0a4a475f78}{hash\+Password}} (const QString \&password)
+\begin{DoxyCompactList}\small\item\em Hashes a password using SHA-\/256. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_abe13b1f15f41c7f7c239d21bbc288c34}{Write\+\_\+\+Summary}} (void)
+\begin{DoxyCompactList}\small\item\em Writes a daily summary of transactions to the database. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBankDataBase_ac21acac11648c77daee4b6c93318ac5d}{\texorpdfstring{$\sim$}{\string~}\+Bank\+Data\+Base}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{classBankDataBase}{Bank\+Data\+Base} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \doxylink{classEdit__Account}{Edit\+\_\+\+Account} class provides a dialog for editing account information. 
+
+This class inherits from QDialog and \doxylink{classBankAccount}{Bank\+Account}, and allows users to modify account details such as account type and personal information. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classEdit__Account_ae5d6ec268e3cb1789eafa4c4174a1678}\index{Edit\_Account@{Edit\_Account}!Edit\_Account@{Edit\_Account}}
+\index{Edit\_Account@{Edit\_Account}!Edit\_Account@{Edit\_Account}}
+\doxysubsubsection{\texorpdfstring{Edit\_Account()}{Edit\_Account()}}
+{\footnotesize\ttfamily \label{classEdit__Account_ae5d6ec268e3cb1789eafa4c4174a1678} 
+Edit\+\_\+\+Account\+::\+Edit\+\_\+\+Account (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructs an \doxylink{classEdit__Account}{Edit\+\_\+\+Account} dialog. 
+
+This constructor initializes the UI components and sets up the available languages and account types for selection.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Pointer to the parent widget. This is passed to the QDialog constructor to ensure proper parent-\/child relationships in the widget hierarchy. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classEdit__Account_a584f13df328afe676048b2c1f2aea25d}\index{Edit\_Account@{Edit\_Account}!````~Edit\_Account@{\texorpdfstring{$\sim$}{\string~}Edit\_Account}}
+\index{````~Edit\_Account@{\texorpdfstring{$\sim$}{\string~}Edit\_Account}!Edit\_Account@{Edit\_Account}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Edit\_Account()}{\string~Edit\_Account()}}
+{\footnotesize\ttfamily \label{classEdit__Account_a584f13df328afe676048b2c1f2aea25d} 
+Edit\+\_\+\+Account\+::\texorpdfstring{$\sim$}{\string~}\+Edit\+\_\+\+Account (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destroys the \doxylink{classEdit__Account}{Edit\+\_\+\+Account} dialog. 
+
+This destructor cleans up the UI components to free memory. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classEdit__Account_a095971f36d0f4ef54563ade093e0254c}\index{Edit\_Account@{Edit\_Account}!Check\_Authorization@{Check\_Authorization}}
+\index{Check\_Authorization@{Check\_Authorization}!Edit\_Account@{Edit\_Account}}
+\doxysubsubsection{\texorpdfstring{Check\_Authorization()}{Check\_Authorization()}}
+{\footnotesize\ttfamily \label{classEdit__Account_a095971f36d0f4ef54563ade093e0254c} 
+int Edit\+\_\+\+Account\+::\+Check\+\_\+\+Authorization (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Checks the authorization of the customer based on their credentials. 
+
+This function verifies whether the provided name, national number, and password match the stored information in the database. If the credentials are valid, it returns the customer ID. If any field is empty or incorrect, appropriate messages are displayed, and the function returns -\/1.
+
+\begin{DoxyReturn}{Returns}
+int The customer ID if authorization is successful, otherwise -\/1.
+\end{DoxyReturn}
+The function performs the following checks\+:
+\begin{DoxyItemize}
+\item Validates that the name, password, and national number fields are not empty.
+\item Retrieves the customer\textquotesingle{}s information from the database.
+\item Compares the entered credentials with the retrieved information.
+\end{DoxyItemize}
+
+If the entered information matches, the customer ID is returned. If not, specific warning messages are displayed for incorrect fields. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+edit\+\_\+account.\+h\item 
+edit\+\_\+account.\+cpp\end{DoxyCompactItemize}

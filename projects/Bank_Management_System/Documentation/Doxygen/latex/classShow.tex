@@ -1,0 +1,92 @@
+\doxysection{Show Class Reference}
+\hypertarget{classShow}{}\label{classShow}\index{Show@{Show}}
+
+
+The \doxylink{classShow}{Show} class provides a dialog for displaying bank account information.  
+
+
+
+
+{\ttfamily \#include $<$show.\+h$>$}
+
+Inheritance diagram for Show\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classShow}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classShow_ac7db673491a3076b087d5fbe27b49092}{Show}} (QWidget \texorpdfstring{$\ast$}{*}parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Constructs a \doxylink{classShow}{Show} dialog. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classShow_a63bd5fb3f08fd05034c3e84e31e537fe}{\texorpdfstring{$\sim$}{\string~}\+Show}} ()
+\begin{DoxyCompactList}\small\item\em Destroys the \doxylink{classShow}{Show} dialog. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBankDataBase}{Bank\+Data\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBankDataBase_a5d9b735146e8dc2f635ef6a244a1bb3d}{Initialize\+\_\+\+Data\+\_\+\+Base}} (QString db\+Name)
+\begin{DoxyCompactList}\small\item\em Initializes the bank database by creating necessary tables and establishing a connection. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a9e1354c2b90094fb15a409331ad0e5f9}{create\+Table}} (QString sql)
+\begin{DoxyCompactList}\small\item\em Creates a table in the database using the provided SQL query. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a064911177618d2bde1747b311aa0d487}{insert\+Data}} (QString String\+To\+Insert)
+\begin{DoxyCompactList}\small\item\em Inserts data into the database using the provided SQL query. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a4874f3009039c80771e71ebe49887803}{Return\+\_\+\+Item}} (QString Table\+Name, QString select, QString condition)
+\begin{DoxyCompactList}\small\item\em Retrieves a specific item from the database based on the given conditions. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a74111d44bce10c68eab40f1577cef4a0}{delete\+Data}} (QString Table\+\_\+name, int id)
+\begin{DoxyCompactList}\small\item\em Deletes a record from the specified table based on the given \doxylink{classCustomer}{Customer} ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a6d18a7960a82cd8620b972961e74146f}{update\+Data}} (QString newsql)
+\begin{DoxyCompactList}\small\item\em Updates data in the database using the provided SQL query. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBankDataBase_ad530d58c9a96baf024c02b45279fe83f}{check\+Table\+Exists}} (QString table\+Name)
+\begin{DoxyCompactList}\small\item\em Checks if a specified table exists in the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_a6743a102bd51adc5bb11ea2a49b3c856}{Daily\+\_\+\+Updating}} (void)
+\begin{DoxyCompactList}\small\item\em Performs daily updates on saving , loan and checking accounts. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_af256c6ce464eca9a2624d5538716cb16}{Get\+\_\+\+Data\+\_\+\+Base\+\_\+\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the name of the database. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a55739d7ad2bae21fb1333c0a4a475f78}{hash\+Password}} (const QString \&password)
+\begin{DoxyCompactList}\small\item\em Hashes a password using SHA-\/256. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_abe13b1f15f41c7f7c239d21bbc288c34}{Write\+\_\+\+Summary}} (void)
+\begin{DoxyCompactList}\small\item\em Writes a daily summary of transactions to the database. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBankDataBase_ac21acac11648c77daee4b6c93318ac5d}{\texorpdfstring{$\sim$}{\string~}\+Bank\+Data\+Base}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{classBankDataBase}{Bank\+Data\+Base} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \doxylink{classShow}{Show} class provides a dialog for displaying bank account information. 
+
+This class inherits from QDialog and \doxylink{classBankDataBase}{Bank\+Data\+Base}, allowing it to manage the display of data from the bank\textquotesingle{}s database. It features various slots to handle user interactions such as button clicks and combo box selections. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classShow_ac7db673491a3076b087d5fbe27b49092}\index{Show@{Show}!Show@{Show}}
+\index{Show@{Show}!Show@{Show}}
+\doxysubsubsection{\texorpdfstring{Show()}{Show()}}
+{\footnotesize\ttfamily \label{classShow_ac7db673491a3076b087d5fbe27b49092} 
+Show\+::\+Show (\begin{DoxyParamCaption}\item[{QWidget \texorpdfstring{$\ast$}{*}}]{parent}{ = {\ttfamily nullptr}}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructs a \doxylink{classShow}{Show} dialog. 
+
+This constructor initializes the dialog, sets up the user interface, and populates the combo boxes with options for selecting data types and languages.
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & The parent widget (default is nullptr). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classShow_a63bd5fb3f08fd05034c3e84e31e537fe}\index{Show@{Show}!````~Show@{\texorpdfstring{$\sim$}{\string~}Show}}
+\index{````~Show@{\texorpdfstring{$\sim$}{\string~}Show}!Show@{Show}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Show()}{\string~Show()}}
+{\footnotesize\ttfamily \label{classShow_a63bd5fb3f08fd05034c3e84e31e537fe} 
+Show\+::\texorpdfstring{$\sim$}{\string~}\+Show (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destroys the \doxylink{classShow}{Show} dialog. 
+
+This destructor cleans up any allocated resources, including the user interface elements. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+show.\+h\item 
+show.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,50 @@
+\doxysection{saving\+\_\+acount.\+h}
+\hypertarget{saving__acount_8h_source}{}\label{saving__acount_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ SAVING\_ACOUNT\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ SAVING\_ACOUNT\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}customer.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{comment}{//\ class\ BankCustomer;}}
+\DoxyCodeLine{00007\ \textcolor{keyword}{namespace\ }Ui}
+\DoxyCodeLine{00008\ \{}
+\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSaving__Acount}{Saving\_Acount}};}
+\DoxyCodeLine{00010\ \}}
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSaving__Acount}{Saving\_Acount}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00018\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classSaving__Acount_a51d766370fcc4311ef865960f35a9a0f}{Saving\_Acount}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{classSaving__Acount}{\string~Saving\_Acount}}();}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_Home\_clicked();}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_Back\_clicked();}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_Next\_clicked();}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_comboBox\_currentTextChanged(\textcolor{keyword}{const}\ QString\ \&arg1);}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_checkBox\_clicked();}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00037\ \ \ \ \ Ui::Saving\_Acount\ *ui;\ }
+\DoxyCodeLine{00038\ \};}
+\DoxyCodeLine{00045\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classBank__Saving}{Bank\_Saving}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classBankCustomer}{BankCustomer}}}
+\DoxyCodeLine{00046\ \{}
+\DoxyCodeLine{00047\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_Interset\_Rate;\ }
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00051\ \ \ \ \ \mbox{\hyperlink{classBank__Saving_aed8ca6a0f8d7ead9a226175cf4ca5fd8}{Bank\_Saving}}();}
+\DoxyCodeLine{00052\ \ \ \ \ \mbox{\hyperlink{classBank__Saving_aed8ca6a0f8d7ead9a226175cf4ca5fd8}{Bank\_Saving}}(QString\ Customer\_Name,\ QString\ Customer\_Pass,\ QString\ Customer\_NN);}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classBank__Saving_a4c5e486dd2944b692175df6375e9fde4}{Get\_Interset\_Rate}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00054\ \ \ \ \ \mbox{\hyperlink{classBank__Saving_a77cf485de67a54d0958cb9398a934154}{\string~Bank\_Saving}}();}
+\DoxyCodeLine{00055\ \};}
+\DoxyCodeLine{00056\ }
+\DoxyCodeLine{00057\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ SAVING\_ACOUNT\_H}}
+
+\end{DoxyCode}

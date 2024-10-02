@@ -1,0 +1,49 @@
+\doxysection{checking\+\_\+account.\+h}
+\hypertarget{checking__account_8h_source}{}\label{checking__account_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ CHECKING\_ACCOUNT\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ CHECKING\_ACCOUNT\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}customer.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{keyword}{namespace\ }Ui}
+\DoxyCodeLine{00007\ \{}
+\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classChecking__Account}{Checking\_Account}};}
+\DoxyCodeLine{00009\ \}}
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classChecking__Account}{Checking\_Account}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00016\ \{}
+\DoxyCodeLine{00017\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classChecking__Account_a4b6b9af342d0359acd827b7e67669329}{Checking\_Account}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{classChecking__Account_ad4ee7d4030019a10597df07c9e367d1b}{\string~Checking\_Account}}();}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{private}\ slots:}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_Home\_clicked();}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_Back\_clicked();}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_pushButton\_Next\_clicked();}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_comboBox\_currentTextChanged(\textcolor{keyword}{const}\ QString\ \&arg1);}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ on\_checkBox\_clicked();}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00034\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00035\ \ \ \ \ Ui::Checking\_Account\ *ui;\ }
+\DoxyCodeLine{00036\ \};}
+\DoxyCodeLine{00042\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classBank__Checking}{Bank\_Checking}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classBankCustomer}{BankCustomer}}}
+\DoxyCodeLine{00043\ \{}
+\DoxyCodeLine{00044\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_Credit\_Limit\{50000\};\ }
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00047\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00048\ \ \ \ \ \mbox{\hyperlink{classBank__Checking}{Bank\_Checking}}()\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00049\ \ \ \ \ \mbox{\hyperlink{classBank__Checking}{Bank\_Checking}}(QString\ Customer\_Name,\ QString\ Customer\_Pass,\ QString\ Customer\_NN);}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{int}\ Get\_Interset\_Rate(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00051\ \ \ \ \ \mbox{\hyperlink{classBank__Checking}{\string~Bank\_Checking}}()\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00052\ \};}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00054\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ CHECKING\_ACCOUNT\_H}}
+
+\end{DoxyCode}

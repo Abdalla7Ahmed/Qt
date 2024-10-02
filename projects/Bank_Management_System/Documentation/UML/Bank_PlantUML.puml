@@ -1,0 +1,100 @@
+@startuml
+class BankDataBase {
+    
+    - db: QSqlDatabase*
+    - query: QSqlQuery*
+    - m_DataBaseName: QString
+    + BankDataBase()
+    + Initialize_Data_Base(QString): int
+    + createTable(QString): int
+    + insertData(QString): int
+    + Return_Item(QString, QString, QString): QString
+    + deleteData(QString, int): int
+    + updateData(QString): int
+    + checkTableExists(QString): bool
+    + Daily_Updating(): void
+    + Get_Data_Base_Name(): QString
+    + hashPassword(const QString&): QString
+    + Write_Summary():void
+    + ~BankDataBase()
+}
+
+class BankAccount {
+    - Customer_Name: QString
+    - Customer_NN: QString
+    - Customer_Pass: QString
+    - m_Customer_phone: QString
+    - m_Customer_Email: QString
+    - Customer_id: int
+    - m_Balance: float
+    - Customer_Address: QString
+    - Customer_Age: int
+    - m_Credit_Limit: float
+    + BankAccount(QString ,QString ,QString ,QString ,int  ,QString ,QString );
+    + Set_Customer_Name(QString): void
+    + Set_Customer_NN(QString): void
+    + Set_Customer_Pass(QString): void
+    + Set_Customer_Address(QString): void
+    + Set_Customer_Age(int): void
+    + Set_Customer_Phone(QString): void
+    + Set_Customer_Email(QString): void
+    + Check_Acount_Info(): int
+    + deposit(int, float): void
+    + withdraw(int, float): void
+    + balance_Enquiry(): void
+    + QMessageBox_Display(QString, int): void
+    + Add_New_Customer(): void
+    + Create_Saving_Acount(float): void
+    + Create_Loan_Acount(float, int, float): void
+    + Create_Checking_Acount(float): void
+    + generateOTP():QString
+    + sendEmail(QString,QString):void
+    + ~BankAccount()
+}
+
+class BankCustomer {
+    + BankCustomer()
+    BankCustomer(QString ,QString ,QString ,int ,QString ,QString ,QString );
+    + ~BankCustomer()
+}
+
+class BankLoan {
+    - m_Loan_Amount: float
+    - m_Loan_Duration: int
+    - m_Interest_Ratio: float
+    + BankLoan(QString ,QString ,QString );
+    + Set_Loan_Amount(float): void
+    + Set_Loan_Duration(int): void
+    + Get_Loan_Amount(): float
+    + Get_Loan_Duration(): int
+    + Get_Interest_Ratio(): float
+    + ~BankLoan()
+}
+
+class Bank_Saving {
+    - m_Interset_Rate: int
+    + Bank_Saving(QString ,QString ,QString );
+    + Get_Interset_Rate(): int
+    + ~Bank_Saving()
+}
+
+class Make_Operation {
+    + Make_Operation(QString ,QString ,QString );
+    + ~Make_Operation()
+}
+class Bank_Checking {
+    - m_Credit_Limit: int
+    + Bank_Checking(QString ,QString ,QString );
+    + Get_Interset_Rate(): int
+    + ~Bank_Checking()
+}
+
+
+
+BankAccount --|> BankDataBase
+BankCustomer --|> BankAccount
+BankLoan --|> BankCustomer
+Bank_Checking --|> BankCustomer
+Bank_Saving --|> BankCustomer
+Make_Operation --|> BankCustomer
+@enduml

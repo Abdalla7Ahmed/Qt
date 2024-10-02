@@ -1,0 +1,292 @@
+\doxysection{Bank\+Data\+Base Class Reference}
+\hypertarget{classBankDataBase}{}\label{classBankDataBase}\index{BankDataBase@{BankDataBase}}
+
+
+Manages database operations for the library management system.  
+
+
+
+
+{\ttfamily \#include $<$database.\+h$>$}
+
+Inheritance diagram for Bank\+Data\+Base\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.929825cm]{classBankDataBase}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBankDataBase_a5d9b735146e8dc2f635ef6a244a1bb3d}{Initialize\+\_\+\+Data\+\_\+\+Base}} (QString db\+Name)
+\begin{DoxyCompactList}\small\item\em Initializes the bank database by creating necessary tables and establishing a connection. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a9e1354c2b90094fb15a409331ad0e5f9}{create\+Table}} (QString sql)
+\begin{DoxyCompactList}\small\item\em Creates a table in the database using the provided SQL query. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a064911177618d2bde1747b311aa0d487}{insert\+Data}} (QString String\+To\+Insert)
+\begin{DoxyCompactList}\small\item\em Inserts data into the database using the provided SQL query. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a4874f3009039c80771e71ebe49887803}{Return\+\_\+\+Item}} (QString Table\+Name, QString select, QString condition)
+\begin{DoxyCompactList}\small\item\em Retrieves a specific item from the database based on the given conditions. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a74111d44bce10c68eab40f1577cef4a0}{delete\+Data}} (QString Table\+\_\+name, int id)
+\begin{DoxyCompactList}\small\item\em Deletes a record from the specified table based on the given \doxylink{classCustomer}{Customer} ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classBankDataBase_a6d18a7960a82cd8620b972961e74146f}{update\+Data}} (QString newsql)
+\begin{DoxyCompactList}\small\item\em Updates data in the database using the provided SQL query. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classBankDataBase_ad530d58c9a96baf024c02b45279fe83f}{check\+Table\+Exists}} (QString table\+Name)
+\begin{DoxyCompactList}\small\item\em Checks if a specified table exists in the database. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_a6743a102bd51adc5bb11ea2a49b3c856}{Daily\+\_\+\+Updating}} (void)
+\begin{DoxyCompactList}\small\item\em Performs daily updates on saving , loan and checking accounts. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_af256c6ce464eca9a2624d5538716cb16}{Get\+\_\+\+Data\+\_\+\+Base\+\_\+\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the name of the database. \end{DoxyCompactList}\item 
+QString \mbox{\hyperlink{classBankDataBase_a55739d7ad2bae21fb1333c0a4a475f78}{hash\+Password}} (const QString \&password)
+\begin{DoxyCompactList}\small\item\em Hashes a password using SHA-\/256. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBankDataBase_abe13b1f15f41c7f7c239d21bbc288c34}{Write\+\_\+\+Summary}} (void)
+\begin{DoxyCompactList}\small\item\em Writes a daily summary of transactions to the database. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBankDataBase_ac21acac11648c77daee4b6c93318ac5d}{\texorpdfstring{$\sim$}{\string~}\+Bank\+Data\+Base}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for the \doxylink{classBankDataBase}{Bank\+Data\+Base} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Manages database operations for the library management system. 
+
+This class provides methods to interact with the SQLite database, allowing for the creation of tables, insertion and retrieval of data, as well as updating and deleting records. It also provides functionality for daily updates and password hashing. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classBankDataBase_ac21acac11648c77daee4b6c93318ac5d}\index{BankDataBase@{BankDataBase}!````~BankDataBase@{\texorpdfstring{$\sim$}{\string~}BankDataBase}}
+\index{````~BankDataBase@{\texorpdfstring{$\sim$}{\string~}BankDataBase}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}BankDataBase()}{\string~BankDataBase()}}
+{\footnotesize\ttfamily \label{classBankDataBase_ac21acac11648c77daee4b6c93318ac5d} 
+Bank\+Data\+Base\+::\texorpdfstring{$\sim$}{\string~}\+Bank\+Data\+Base (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destructor for the \doxylink{classBankDataBase}{Bank\+Data\+Base} class. 
+
+This destructor is responsible for closing the database connection when the \doxylink{classBankDataBase}{Bank\+Data\+Base} object is destroyed. It ensures that all resources are properly released. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classBankDataBase_ad530d58c9a96baf024c02b45279fe83f}\index{BankDataBase@{BankDataBase}!checkTableExists@{checkTableExists}}
+\index{checkTableExists@{checkTableExists}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{checkTableExists()}{checkTableExists()}}
+{\footnotesize\ttfamily \label{classBankDataBase_ad530d58c9a96baf024c02b45279fe83f} 
+bool Bank\+Data\+Base\+::check\+Table\+Exists (\begin{DoxyParamCaption}\item[{QString}]{table\+Name}{}\end{DoxyParamCaption})}
+
+
+
+Checks if a specified table exists in the database. 
+
+This function executes an SQL query to determine if the table with the provided name exists in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em table\+Name} & The name of the table to check for existence. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns true if the table exists, false otherwise or if an error occurs. 
+\end{DoxyReturn}
+\Hypertarget{classBankDataBase_a9e1354c2b90094fb15a409331ad0e5f9}\index{BankDataBase@{BankDataBase}!createTable@{createTable}}
+\index{createTable@{createTable}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{createTable()}{createTable()}}
+{\footnotesize\ttfamily \label{classBankDataBase_a9e1354c2b90094fb15a409331ad0e5f9} 
+int Bank\+Data\+Base\+::create\+Table (\begin{DoxyParamCaption}\item[{QString}]{sql}{}\end{DoxyParamCaption})}
+
+
+
+Creates a table in the database using the provided SQL query. 
+
+This function executes the given SQL query to create a new table in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em sql} & The SQL query string used to create the table. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 (true) if the table was created successfully, 0 (false) otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classBankDataBase_a6743a102bd51adc5bb11ea2a49b3c856}\index{BankDataBase@{BankDataBase}!Daily\_Updating@{Daily\_Updating}}
+\index{Daily\_Updating@{Daily\_Updating}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{Daily\_Updating()}{Daily\_Updating()}}
+{\footnotesize\ttfamily \label{classBankDataBase_a6743a102bd51adc5bb11ea2a49b3c856} 
+void Bank\+Data\+Base\+::\+Daily\+\_\+\+Updating (\begin{DoxyParamCaption}\item[{void}]{}{}\end{DoxyParamCaption})}
+
+
+
+Performs daily updates on saving , loan and checking accounts. 
+
+This function retrieves all accounts from the database and processes each record. It checks if more than one month has passed since the last operation date. Based on the account type (Loan, Saving, or Checking), it updates the balance and loan duration if applicable, and records the new last operation date.
+
+This function also logs the processing steps and any issues encountered during the execution of queries. \Hypertarget{classBankDataBase_a74111d44bce10c68eab40f1577cef4a0}\index{BankDataBase@{BankDataBase}!deleteData@{deleteData}}
+\index{deleteData@{deleteData}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{deleteData()}{deleteData()}}
+{\footnotesize\ttfamily \label{classBankDataBase_a74111d44bce10c68eab40f1577cef4a0} 
+int Bank\+Data\+Base\+::delete\+Data (\begin{DoxyParamCaption}\item[{QString}]{Table\+\_\+name}{, }\item[{int}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Deletes a record from the specified table based on the given \doxylink{classCustomer}{Customer} ID. 
+
+This function constructs and executes an SQL DELETE query to remove a record from the provided table where the \doxylink{classCustomer}{Customer} ID matches the given id.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Table\+\_\+name} & The name of the table from which the record will be deleted. \\
+\hline
+{\em id} & The \doxylink{classCustomer}{Customer} ID used to identify the record to be deleted. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 (true) if the deletion was successful, 0 (false) otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classBankDataBase_af256c6ce464eca9a2624d5538716cb16}\index{BankDataBase@{BankDataBase}!Get\_Data\_Base\_Name@{Get\_Data\_Base\_Name}}
+\index{Get\_Data\_Base\_Name@{Get\_Data\_Base\_Name}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{Get\_Data\_Base\_Name()}{Get\_Data\_Base\_Name()}}
+{\footnotesize\ttfamily \label{classBankDataBase_af256c6ce464eca9a2624d5538716cb16} 
+QString Bank\+Data\+Base\+::\+Get\+\_\+\+Data\+\_\+\+Base\+\_\+\+Name (\begin{DoxyParamCaption}\item[{void}]{}{}\end{DoxyParamCaption})}
+
+
+
+Retrieves the name of the database. 
+
+This function returns the name of the currently initialized database.
+
+\begin{DoxyReturn}{Returns}
+The name of the database as a QString. 
+\end{DoxyReturn}
+\Hypertarget{classBankDataBase_a55739d7ad2bae21fb1333c0a4a475f78}\index{BankDataBase@{BankDataBase}!hashPassword@{hashPassword}}
+\index{hashPassword@{hashPassword}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{hashPassword()}{hashPassword()}}
+{\footnotesize\ttfamily \label{classBankDataBase_a55739d7ad2bae21fb1333c0a4a475f78} 
+QString Bank\+Data\+Base\+::hash\+Password (\begin{DoxyParamCaption}\item[{const QString \&}]{password}{}\end{DoxyParamCaption})}
+
+
+
+Hashes a password using SHA-\/256. 
+
+This function takes a password as input, converts it to a UTF-\/8 byte array, and computes its SHA-\/256 hash. The resulting hash is then returned as a hexadecimal string.
+
+
+\begin{DoxyParams}{Parameters}
+{\em password} & The plaintext password to be hashed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The hashed password as a hexadecimal QString. 
+\end{DoxyReturn}
+\Hypertarget{classBankDataBase_a5d9b735146e8dc2f635ef6a244a1bb3d}\index{BankDataBase@{BankDataBase}!Initialize\_Data\_Base@{Initialize\_Data\_Base}}
+\index{Initialize\_Data\_Base@{Initialize\_Data\_Base}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{Initialize\_Data\_Base()}{Initialize\_Data\_Base()}}
+{\footnotesize\ttfamily \label{classBankDataBase_a5d9b735146e8dc2f635ef6a244a1bb3d} 
+int Bank\+Data\+Base\+::\+Initialize\+\_\+\+Data\+\_\+\+Base (\begin{DoxyParamCaption}\item[{QString}]{db\+Name}{}\end{DoxyParamCaption})}
+
+
+
+Initializes the bank database by creating necessary tables and establishing a connection. 
+
+This function attempts to open an SQLite database with the specified name. If a default connection already exists, it will use that connection. If not, it creates a new one. It then creates the {\ttfamily Person}, {\ttfamily \doxylink{classAccount}{Account}}, and {\ttfamily Account\+\_\+\+Transaction} tables if they do not already exist.
+
+
+\begin{DoxyParams}{Parameters}
+{\em db\+Name} & The name of the database to be opened or created. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 (true) if the database was opened and initialized successfully, 0 (false) otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classBankDataBase_a064911177618d2bde1747b311aa0d487}\index{BankDataBase@{BankDataBase}!insertData@{insertData}}
+\index{insertData@{insertData}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{insertData()}{insertData()}}
+{\footnotesize\ttfamily \label{classBankDataBase_a064911177618d2bde1747b311aa0d487} 
+int Bank\+Data\+Base\+::insert\+Data (\begin{DoxyParamCaption}\item[{QString}]{String\+To\+Insert}{}\end{DoxyParamCaption})}
+
+
+
+Inserts data into the database using the provided SQL query. 
+
+This function executes the given SQL insert query string to insert data into the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em String\+To\+Insert} & The SQL query string used for data insertion. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 (true) if the query was executed successfully, 0 (false) otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classBankDataBase_a4874f3009039c80771e71ebe49887803}\index{BankDataBase@{BankDataBase}!Return\_Item@{Return\_Item}}
+\index{Return\_Item@{Return\_Item}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{Return\_Item()}{Return\_Item()}}
+{\footnotesize\ttfamily \label{classBankDataBase_a4874f3009039c80771e71ebe49887803} 
+QString Bank\+Data\+Base\+::\+Return\+\_\+\+Item (\begin{DoxyParamCaption}\item[{QString}]{Table\+Name}{, }\item[{QString}]{select}{, }\item[{QString}]{condition}{}\end{DoxyParamCaption})}
+
+
+
+Retrieves a specific item from the database based on the given conditions. 
+
+This function executes an SQL SELECT query on the specified table to return the desired item. It constructs the query from the provided table name, selection, and condition.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Table\+Name} & The name of the table to query from. \\
+\hline
+{\em select} & The column(s) to select in the query. \\
+\hline
+{\em condition} & The condition to filter the query (e.\+g., WHERE clause). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns the selected item as a QString, or "{}\+No"{} if no matching record is found or if there is an error. 
+\end{DoxyReturn}
+\Hypertarget{classBankDataBase_a6d18a7960a82cd8620b972961e74146f}\index{BankDataBase@{BankDataBase}!updateData@{updateData}}
+\index{updateData@{updateData}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{updateData()}{updateData()}}
+{\footnotesize\ttfamily \label{classBankDataBase_a6d18a7960a82cd8620b972961e74146f} 
+int Bank\+Data\+Base\+::update\+Data (\begin{DoxyParamCaption}\item[{QString}]{newsql}{}\end{DoxyParamCaption})}
+
+
+
+Updates data in the database using the provided SQL query. 
+
+This function executes an SQL UPDATE query to modify existing data in the database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em newsql} & The SQL query string used for updating the data. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns 1 (true) if the query was executed successfully, 0 (false) otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classBankDataBase_abe13b1f15f41c7f7c239d21bbc288c34}\index{BankDataBase@{BankDataBase}!Write\_Summary@{Write\_Summary}}
+\index{Write\_Summary@{Write\_Summary}!BankDataBase@{BankDataBase}}
+\doxysubsubsection{\texorpdfstring{Write\_Summary()}{Write\_Summary()}}
+{\footnotesize\ttfamily \label{classBankDataBase_abe13b1f15f41c7f7c239d21bbc288c34} 
+void Bank\+Data\+Base\+::\+Write\+\_\+\+Summary (\begin{DoxyParamCaption}\item[{void}]{}{}\end{DoxyParamCaption})}
+
+
+
+Writes a daily summary of transactions to the database. 
+
+This function retrieves data from the {\ttfamily Person} and {\ttfamily Account\+\_\+\+Transaction} tables to generate a daily summary. It computes the total number of members from the {\ttfamily Person} table, sums the deposit and withdrawal amounts for the current day from the {\ttfamily Account\+\_\+\+Transaction} table, and then inserts this information into the {\ttfamily Summary} table.
+
+The process includes\+:
+\begin{DoxyItemize}
+\item Fetching the number of members from the {\ttfamily Person} table.
+\item Summing the deposit amounts for the current day.
+\item Summing the withdrawal amounts for the current day.
+\item Inserting the computed data (number of members, total deposits, total withdrawals) into the {\ttfamily Summary} table, with a timestamp indicating the current date and time.
+\end{DoxyItemize}
+
+The function logs SQL errors in case of any issues while executing the queries. The date is formatted as {\ttfamily yyyy-\/\+MM-\/dd} for consistency with the SQLite {\ttfamily Date()} function.
+
+\begin{DoxyNote}{Note}
+This function assumes the {\ttfamily Summary} table exists in the database schema and is properly structured to accept these fields\+: {\ttfamily Number\+\_\+\+Of\+\_\+\+Members}, {\ttfamily Deposit\+\_\+\+Amount}, {\ttfamily Withdraw\+\_\+\+Amount}, and {\ttfamily Date\+\_\+\+Time}.
+\end{DoxyNote}
+\begin{DoxySeeAlso}{See also}
+\doxylink{classBankDataBase_a6743a102bd51adc5bb11ea2a49b3c856}{Bank\+Data\+Base\+::\+Daily\+\_\+\+Updating()} 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+database.\+h\item 
+database.\+cpp\end{DoxyCompactItemize}

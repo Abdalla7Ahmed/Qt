@@ -1,0 +1,53 @@
+\doxysection{database.\+h}
+\hypertarget{database_8h_source}{}\label{database_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ DATABASE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ DATABASE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <QDialog>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <QtSql/QtSql>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <QtDebug>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <QMessageBox>}}
+\DoxyCodeLine{00008\ \textcolor{keyword}{namespace\ }Ui}
+\DoxyCodeLine{00009\ \{}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keyword}{class\ }\mbox{\hyperlink{classDataBase}{DataBase}};}
+\DoxyCodeLine{00011\ \}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00022\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classDataBase}{DataBase}}\ :\ \textcolor{keyword}{public}\ QDialog}
+\DoxyCodeLine{00023\ \{}
+\DoxyCodeLine{00024\ \ \ \ \ Q\_OBJECT}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00026\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classDataBase}{DataBase}}(QWidget\ *parent\ =\ \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \ \ \ \mbox{\hyperlink{classDataBase_a9d4629e705ccaa4897e9650222a2a648}{\string~DataBase}}();}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00032\ \ \ \ \ Ui::DataBase\ *ui;\ }
+\DoxyCodeLine{00033\ \};}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00044\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classBankDataBase}{BankDataBase}}}
+\DoxyCodeLine{00045\ \{}
+\DoxyCodeLine{00046\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00047\ \ \ \ \ QSqlDatabase\ *db;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00048\ \ \ \ \ QSqlQuery\ *query;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00049\ \ \ \ \ QString\ m\_DataBaseName\{\textcolor{stringliteral}{"{}Library\_Management\_System.db"{}}\};\ }
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00052\ \ \ \ \ \mbox{\hyperlink{classBankDataBase}{BankDataBase}}()\ =\ \textcolor{keywordflow}{default};}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classBankDataBase_a5d9b735146e8dc2f635ef6a244a1bb3d}{Initialize\_Data\_Base}}(QString\ dbName);}
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classBankDataBase_a9e1354c2b90094fb15a409331ad0e5f9}{createTable}}(QString\ sql);}
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classBankDataBase_a064911177618d2bde1747b311aa0d487}{insertData}}(QString\ StringToInsert);}
+\DoxyCodeLine{00056\ \ \ \ \ QString\ \mbox{\hyperlink{classBankDataBase_a4874f3009039c80771e71ebe49887803}{Return\_Item}}(QString\ TableName,\ QString\ select,\ QString\ condition);}
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classBankDataBase_a74111d44bce10c68eab40f1577cef4a0}{deleteData}}(QString\ Table\_name,\ \textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classBankDataBase_a6d18a7960a82cd8620b972961e74146f}{updateData}}(QString\ newsql);}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{classBankDataBase_ad530d58c9a96baf024c02b45279fe83f}{checkTableExists}}(QString\ tableName);}
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classBankDataBase_a6743a102bd51adc5bb11ea2a49b3c856}{Daily\_Updating}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00061\ \ \ \ \ QString\ \mbox{\hyperlink{classBankDataBase_af256c6ce464eca9a2624d5538716cb16}{Get\_Data\_Base\_Name}}();}
+\DoxyCodeLine{00062\ \ \ \ \ QString\ \mbox{\hyperlink{classBankDataBase_a55739d7ad2bae21fb1333c0a4a475f78}{hashPassword}}(\textcolor{keyword}{const}\ QString\ \&password);}
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classBankDataBase_abe13b1f15f41c7f7c239d21bbc288c34}{Write\_Summary}}(\textcolor{keywordtype}{void});}
+\DoxyCodeLine{00064\ \ \ \ \ \mbox{\hyperlink{classBankDataBase_ac21acac11648c77daee4b6c93318ac5d}{\string~BankDataBase}}();}
+\DoxyCodeLine{00065\ \};}
+\DoxyCodeLine{00066\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DATABASE\_H}}
+
+\end{DoxyCode}
