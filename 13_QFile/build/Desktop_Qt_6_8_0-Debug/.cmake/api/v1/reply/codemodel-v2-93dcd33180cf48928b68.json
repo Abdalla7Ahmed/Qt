@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b58b816b4b4a0c9ce924.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "13_QFile",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "13_QFile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-13_QFile-Debug-a8d186e940eaf2bc011d.json",
+					"name" : "13_QFile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "13_QFile_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-13_QFile_autogen-Debug-e8c0a32e75ac889c36fc.json",
+					"name" : "13_QFile_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "13_QFile_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-13_QFile_autogen_timestamp_deps-Debug-ded915aad958288174b5.json",
+					"name" : "13_QFile_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/13_QFile/build/Desktop_Qt_6_8_0-Debug",
+		"source" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/13_QFile"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

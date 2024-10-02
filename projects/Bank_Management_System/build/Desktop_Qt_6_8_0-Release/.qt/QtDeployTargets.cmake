@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Bank_Management_System_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/Bank_Management_System)
+set(__QT_DEPLOY_TARGET_Bank_Management_System_TYPE EXECUTABLE)

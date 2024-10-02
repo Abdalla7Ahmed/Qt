@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_6_Login_App_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/6_Login_App/build/Desktop_Qt_6_8_0-Debug/6_Login_App)
+set(__QT_DEPLOY_TARGET_6_Login_App_TYPE EXECUTABLE)

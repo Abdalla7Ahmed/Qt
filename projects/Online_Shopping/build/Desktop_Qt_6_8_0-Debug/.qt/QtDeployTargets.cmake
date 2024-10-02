@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Online_Shopping_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Online_Shopping/build/Desktop_Qt_6_8_0-Debug/Online_Shopping)
+set(__QT_DEPLOY_TARGET_Online_Shopping_TYPE EXECUTABLE)

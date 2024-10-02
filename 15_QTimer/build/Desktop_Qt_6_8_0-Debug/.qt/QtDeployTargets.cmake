@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_15_QTimer_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/15_QTimer/build/Desktop_Qt_6_8_0-Debug/15_QTimer)
+set(__QT_DEPLOY_TARGET_15_QTimer_TYPE EXECUTABLE)

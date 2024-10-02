@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-66ea40365ba8429a48e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "16_NotePad_Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "16_NotePad_Project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_NotePad_Project-Debug-12a7253b2acf4b2174ed.json",
+					"name" : "16_NotePad_Project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "16_NotePad_Project_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_NotePad_Project_autogen-Debug-a7409546f35f43dfec30.json",
+					"name" : "16_NotePad_Project_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "16_NotePad_Project_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16_NotePad_Project_autogen_timestamp_deps-Debug-6b18daf630e3c5f6fe36.json",
+					"name" : "16_NotePad_Project_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/build/Desktop_Qt_6_8_0-Debug",
+		"source" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

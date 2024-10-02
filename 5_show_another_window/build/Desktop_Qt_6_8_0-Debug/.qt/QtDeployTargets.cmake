@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_show_another_window_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/show_another_window/build/Desktop_Qt_6_8_0-Debug/show_another_window)
+set(__QT_DEPLOY_TARGET_show_another_window_TYPE EXECUTABLE)

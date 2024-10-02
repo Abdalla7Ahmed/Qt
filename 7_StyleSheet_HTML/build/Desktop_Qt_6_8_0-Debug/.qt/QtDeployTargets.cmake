@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_7_StyleSheet_HTML_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/7_StyleSheet_HTML)
+set(__QT_DEPLOY_TARGET_7_StyleSheet_HTML_TYPE EXECUTABLE)

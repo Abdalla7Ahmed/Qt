@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d05b44eddcca294398ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "7_StyleSheet_HTML",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "7_StyleSheet_HTML::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7_StyleSheet_HTML-Debug-98bc943d7a9a972e9b7e.json",
+					"name" : "7_StyleSheet_HTML",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7_StyleSheet_HTML_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7_StyleSheet_HTML_autogen-Debug-3520366397cfd992f67a.json",
+					"name" : "7_StyleSheet_HTML_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7_StyleSheet_HTML_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7_StyleSheet_HTML_autogen_timestamp_deps-Debug-03e3311bc7f0035588e4.json",
+					"name" : "7_StyleSheet_HTML_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug",
+		"source" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

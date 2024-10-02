@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_9_Action_Menu_ToolBar_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/9_Action_Menu_ToolBar/build/Desktop_Qt_6_8_0-Debug/9_Action_Menu_ToolBar)
+set(__QT_DEPLOY_TARGET_9_Action_Menu_ToolBar_TYPE EXECUTABLE)

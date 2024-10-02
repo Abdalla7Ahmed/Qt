@@ -1,0 +1,9 @@
+# ninja log v6
+1911	2177	1726322874703002939	4_QMessageBox	9a7279e85600b7d6
+271	2069	1726319411318779528	CMakeFiles/4_QMessageBox.dir/4_QMessageBox_autogen/mocs_compilation.cpp.o	ea6d8fa19dd0c2c5
+16	1911	1726322872808004232	CMakeFiles/4_QMessageBox.dir/mainwindow.cpp.o	ce9df3d3172918aa
+3	16	1726322872795004241	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/4_QMessageBox/build/Desktop_Qt_6_8_0-Debug/4_QMessageBox_autogen/timestamp	881d742e02b368ff
+3	16	1726322872795004241	4_QMessageBox_autogen/mocs_compilation.cpp	881d742e02b368ff
+272	2056	1726319411319779536	CMakeFiles/4_QMessageBox.dir/main.cpp.o	54d0a42eafdf8376
+3	16	1726322872795004241	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/4_QMessageBox/build/Desktop_Qt_6_8_0-Debug/4_QMessageBox_autogen/mocs_compilation.cpp	881d742e02b368ff
+3	16	1726322872795004241	4_QMessageBox_autogen/timestamp	881d742e02b368ff

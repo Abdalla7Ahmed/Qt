@@ -1,0 +1,9 @@
+# ninja log v6
+3	296	1726411803201885064	13_QFile_autogen/timestamp	5fb78a7f939d1bed
+3	296	1726411803201885064	13_QFile_autogen/mocs_compilation.cpp	5fb78a7f939d1bed
+3	296	1726411803201885064	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/13_QFile/build/Desktop_Qt_6_8_0-Debug/13_QFile_autogen/timestamp	5fb78a7f939d1bed
+3	296	1726411803201885064	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/13_QFile/build/Desktop_Qt_6_8_0-Debug/13_QFile_autogen/mocs_compilation.cpp	5fb78a7f939d1bed
+297	2455	1726411803209885109	CMakeFiles/13_QFile.dir/13_QFile_autogen/mocs_compilation.cpp.o	4090251b5995dfe7
+298	2873	1726411803210885115	CMakeFiles/13_QFile.dir/mainwindow.cpp.o	289ab05c06d5d76b
+2873	3137	1726411805785899740	13_QFile	87b3cbf50a03b479
+297	2812	1726411803209885109	CMakeFiles/13_QFile.dir/main.cpp.o	adcd1be0a978fe42

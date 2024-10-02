@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/back_active.png</file>
+        <file>images/back_unactive.png</file>
+        <file>images/next-button.png</file>
+        <file>images/white.png</file>
+        <file>images/blue.png</file>
+        <file>images/next_2.png</file>
+        <file>images/home-button.png</file>
+        <file>images/bank.png</file>
+        <file>images/welcome.png</file>
+        <file>images/LineEdit.png</file>
+        <file>images/show.png</file>
+        <file>images/bankahly.png</file>
+        <file>images/Loan_Account.png</file>
+        <file>images/Normal.png</file>
+        <file>images/Saving_Account.png</file>
+        <file>images/Transactions.png</file>
+        <file>images/create_customer_account.png</file>
+        <file>images/banklogo.jpg</file>
+        <file>images/Checking_Account.png</file>
+    </qresource>
+</RCC>

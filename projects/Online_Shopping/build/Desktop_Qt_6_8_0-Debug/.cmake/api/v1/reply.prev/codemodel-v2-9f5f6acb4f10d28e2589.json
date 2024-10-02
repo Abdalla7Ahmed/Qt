@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-20466b8c8c05a64aea0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Online_Shopping",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Online_Shopping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Online_Shopping-Debug-f396c1a8d9c5f39d22db.json",
+					"name" : "Online_Shopping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Online_Shopping_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Online_Shopping_autogen-Debug-aa735082f89608f7540e.json",
+					"name" : "Online_Shopping_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Online_Shopping_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Online_Shopping_autogen_timestamp_deps-Debug-f0e6ba0352f9e2675a61.json",
+					"name" : "Online_Shopping_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Online_Shopping/build/Desktop_Qt_6_8_0-Debug",
+		"source" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Online_Shopping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

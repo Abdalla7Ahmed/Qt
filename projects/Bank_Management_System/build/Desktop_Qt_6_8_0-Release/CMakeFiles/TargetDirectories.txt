@@ -1,0 +1,9 @@
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/CMakeFiles/Bank_Management_System.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/CMakeFiles/edit_cache.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/CMakeFiles/rebuild_cache.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/CMakeFiles/list_install_components.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/CMakeFiles/install.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/CMakeFiles/install/local.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/CMakeFiles/install/strip.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/CMakeFiles/Bank_Management_System_autogen_timestamp_deps.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/CMakeFiles/Bank_Management_System_autogen.dir

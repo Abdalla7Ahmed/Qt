@@ -1,0 +1,27 @@
+{
+	"BUILD_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/build/Desktop_Qt_6_8_0-Debug/11_ListWidget_autogen",
+	"CMAKE_BINARY_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/build/Desktop_Qt_6_8_0-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/build/Desktop_Qt_6_8_0-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget",
+	"CMAKE_SOURCE_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/build/Desktop_Qt_6_8_0-Debug/11_ListWidget_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/images/new.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/images/open.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/images/close.png"
+	],
+	"LOCK_FILE" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/11_ListWidget_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "/home/abdallah/Qt/6.8.0/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/11_ListWidget_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/11_ListWidget/images.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

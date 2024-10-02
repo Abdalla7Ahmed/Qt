@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_14_QFileDialog_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/14_QFileDialog/build/Desktop_Qt_6_8_0-Debug/14_QFileDialog)
+set(__QT_DEPLOY_TARGET_14_QFileDialog_TYPE EXECUTABLE)

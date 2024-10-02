@@ -1,0 +1,23 @@
+# ninja log v6
+2	3420	1727056297101212031	Bank_Management_System_autogen/timestamp	82a6ae9e2f46ba7
+2	3420	1727056297101212031	Bank_Management_System_autogen/mocs_compilation.cpp	82a6ae9e2f46ba7
+2	3420	1727056297101212031	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/Bank_Management_System_autogen/timestamp	82a6ae9e2f46ba7
+2	3420	1727056297101212031	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/Bank_Management_System_autogen/mocs_compilation.cpp	82a6ae9e2f46ba7
+3421	3632	1727056297315212648	Bank_Management_System_autogen/EWIEGA46WW/qrc_images.cpp	bc892ce130f9962c
+3421	3632	1727056297315212648	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/Bank_Management_System/build/Desktop_Qt_6_8_0-Release/Bank_Management_System_autogen/EWIEGA46WW/qrc_images.cpp	bc892ce130f9962c
+3632	11031	1727056297320212662	CMakeFiles/Bank_Management_System.dir/Bank_Management_System_autogen/mocs_compilation.cpp.o	acc673edc4464361
+3632	11089	1727056297320212662	CMakeFiles/Bank_Management_System.dir/main.cpp.o	3ec03861354a2620
+3632	11221	1727056297320212662	CMakeFiles/Bank_Management_System.dir/mainwindow.cpp.o	128228ec03b9db42
+3634	11306	1727056297322212668	CMakeFiles/Bank_Management_System.dir/customer_operations.cpp.o	14d0b05d1d8297f4
+3637	11635	1727056297325212677	CMakeFiles/Bank_Management_System.dir/checking_account.cpp.o	e68621194cbffbd9
+3634	11957	1727056297322212668	CMakeFiles/Bank_Management_System.dir/show.cpp.o	9c558a49b96e5e79
+3634	12040	1727056297322212668	CMakeFiles/Bank_Management_System.dir/help.cpp.o	b6d3c5a8a11fe5ec
+3634	12077	1727056297322212668	CMakeFiles/Bank_Management_System.dir/database.cpp.o	ab52df23debb3931
+3632	12100	1727056297320212662	CMakeFiles/Bank_Management_System.dir/saving_acount.cpp.o	864aaf97f5740d0d
+3633	12132	1727056297321212665	CMakeFiles/Bank_Management_System.dir/customer.cpp.o	232150461b5c31d9
+3635	12171	1727056297323212671	CMakeFiles/Bank_Management_System.dir/edit_account.cpp.o	71edb3852c5da0a3
+3633	12328	1727056297321212665	CMakeFiles/Bank_Management_System.dir/loan_acount.cpp.o	49a660eb96aff4a2
+3633	12426	1727056297321212665	CMakeFiles/Bank_Management_System.dir/account.cpp.o	e0eaf94b544bb793
+3634	12743	1727056297322212668	CMakeFiles/Bank_Management_System.dir/customer_edit.cpp.o	2d62edde8f06fb73
+11031	13228	1727056304719233964	CMakeFiles/Bank_Management_System.dir/Bank_Management_System_autogen/EWIEGA46WW/qrc_images.cpp.o	6bd0e277ebcca48d
+13228	13509	1727056306916240286	Bank_Management_System	8cd0e63b7b9d143

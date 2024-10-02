@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_12_QDir_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/12_QDir/build/Desktop_Qt_6_8_0-Debug/12_QDir)
+set(__QT_DEPLOY_TARGET_12_QDir_TYPE EXECUTABLE)

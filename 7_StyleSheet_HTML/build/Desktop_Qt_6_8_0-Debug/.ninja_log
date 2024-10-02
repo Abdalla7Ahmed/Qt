@@ -1,0 +1,25 @@
+# ninja log v6
+1	199	1726342382893518928	build.ninja	f6e47352a061d21f
+1	260	1726342383164526909	7_StyleSheet_HTML_autogen/timestamp	f6fb351069e20135
+1	260	1726342383164526909	7_StyleSheet_HTML_autogen/mocs_compilation.cpp	f6fb351069e20135
+1	260	1726342383164526909	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/7_StyleSheet_HTML_autogen/timestamp	f6fb351069e20135
+1	260	1726342383164526909	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/7_StyleSheet_HTML_autogen/mocs_compilation.cpp	f6fb351069e20135
+261	274	1726342383181527409	7_StyleSheet_HTML_autogen/EWIEGA46WW/qrc_images.cpp	646b521d5804d618
+261	274	1726342383181527409	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/7_StyleSheet_HTML_autogen/EWIEGA46WW/qrc_images.cpp	646b521d5804d618
+275	396	1726342383183527468	CMakeFiles/7_StyleSheet_HTML.dir/7_StyleSheet_HTML_autogen/EWIEGA46WW/qrc_images.cpp.o	6a8bca7618e3d0b9
+275	1958	1726342383183527468	CMakeFiles/7_StyleSheet_HTML.dir/main.cpp.o	182871e4e7449f5f
+274	1970	1726342383182527439	CMakeFiles/7_StyleSheet_HTML.dir/7_StyleSheet_HTML_autogen/mocs_compilation.cpp.o	f233dc8c9577e62
+275	1995	1726342383183527468	CMakeFiles/7_StyleSheet_HTML.dir/mainwindow.cpp.o	2491aab9c5bf1edf
+1995	2268	1726342384903578017	7_StyleSheet_HTML	c248ddd015dc4890
+3	18	1726342420434578876	7_StyleSheet_HTML_autogen/timestamp	f6fb351069e20135
+3	18	1726342420434578876	7_StyleSheet_HTML_autogen/mocs_compilation.cpp	f6fb351069e20135
+3	18	1726342420434578876	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/7_StyleSheet_HTML_autogen/timestamp	f6fb351069e20135
+3	18	1726342420434578876	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/7_StyleSheet_HTML_autogen/mocs_compilation.cpp	f6fb351069e20135
+18	1627	1726342420449579281	CMakeFiles/7_StyleSheet_HTML.dir/mainwindow.cpp.o	2491aab9c5bf1edf
+1627	1884	1726342422058622705	7_StyleSheet_HTML	c248ddd015dc4890
+13	59	1726342883272041919	7_StyleSheet_HTML_autogen/timestamp	f6fb351069e20135
+13	59	1726342883272041919	7_StyleSheet_HTML_autogen/mocs_compilation.cpp	f6fb351069e20135
+13	59	1726342883272041919	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/7_StyleSheet_HTML_autogen/timestamp	f6fb351069e20135
+13	59	1726342883272041919	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/7_StyleSheet_HTML_autogen/mocs_compilation.cpp	f6fb351069e20135
+60	1859	1726342883319042297	CMakeFiles/7_StyleSheet_HTML.dir/mainwindow.cpp.o	2491aab9c5bf1edf
+1859	2128	1726342885118056721	7_StyleSheet_HTML	c248ddd015dc4890

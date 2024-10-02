@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1088</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"> background-color: #5AB2FF</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QComboBox" name="comboBox_price">
+        <property name="styleSheet">
+         <string notr="true">border: 2px solid #1E0342;
+background-color: #3572EF;
+color: #1E0342;
+font:30px;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_search">
+      <property name="styleSheet">
+       <string notr="true">font-weight: bold;
+font-size: 45px;
+border-radius: 50px; 
+border: 2px solid #1E0342;
+background-color: #A0DEFF;
+color: #1E0342;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_ID">
+        <property name="styleSheet">
+         <string notr="true">font-weight: bold;
+font-size: 45px;
+border-radius: 50px; 
+border: 2px solid #1E0342;
+background-color: #A0DEFF;
+color: #1E0342;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_quantity">
+        <property name="styleSheet">
+         <string notr="true">font-weight: bold;
+font-size: 45px;
+border-radius: 50px; 
+border: 2px solid #1E0342;
+background-color: #A0DEFF;
+color: #1E0342;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="styleSheet">
+         <string notr="true">font-weight: bold;
+font-size: 35px;
+border-radius: 50px; 
+border: 2px solid #1E0342;
+background-color: #A0DEFF;
+color: #1E0342;</string>
+        </property>
+        <property name="text">
+         <string>Add To Cart</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="styleSheet">
+         <string notr="true">font-weight: bold;
+font-size: 35px;
+border-radius: 50px; 
+border: 2px solid #1E0342;
+background-color: #A0DEFF;
+color: #1E0342;</string>
+        </property>
+        <property name="text">
+         <string>Remove From Cart</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_calc">
+      <property name="styleSheet">
+       <string notr="true">font-weight: bold;
+font-size: 35px;
+border-radius: 50px; 
+border: 2px solid #1E0342;
+background-color: #A0DE00;
+color: #1E0342;</string>
+      </property>
+      <property name="text">
+       <string>Calculate Total_Price</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Discount">
+        <property name="styleSheet">
+         <string notr="true">font-weight: bold;
+font-size: 45px;
+border-radius: 50px; 
+border: 2px solid #1E0342;
+background-color: #A0DEFF;
+color: #1E0342;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_Total_Price">
+        <property name="styleSheet">
+         <string notr="true">font-weight: bold;
+font-size: 45px;
+border-radius: 50px; 
+border: 2px solid #1E0342;
+background-color: #A0DEFF;
+color: #1E0342;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true">border: 2px solid #1E0342;
+background-color: #3572EF;
+color: #1E0342;
+font:30px;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableWidget"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">font-weight: bold;
+font-size: 35px;
+border-radius: 50px; 
+border: 2px solid #1E0342;
+background-color: #A0DE00;
+color: #1E0342;</string>
+      </property>
+      <property name="text">
+       <string>Confirm</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1088</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

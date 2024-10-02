@@ -1,0 +1,9 @@
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/7_StyleSheet_HTML.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/edit_cache.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/rebuild_cache.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/list_install_components.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/install.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/install/local.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/install/strip.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/7_StyleSheet_HTML_autogen_timestamp_deps.dir
+/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/7_StyleSheet_HTML/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/7_StyleSheet_HTML_autogen.dir

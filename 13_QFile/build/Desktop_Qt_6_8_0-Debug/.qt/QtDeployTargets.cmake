@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_13_QFile_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/13_QFile/build/Desktop_Qt_6_8_0-Debug/13_QFile)
+set(__QT_DEPLOY_TARGET_13_QFile_TYPE EXECUTABLE)

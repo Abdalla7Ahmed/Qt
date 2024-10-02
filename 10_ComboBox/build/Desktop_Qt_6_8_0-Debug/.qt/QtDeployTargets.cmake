@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_10_ComboBox_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/10_ComboBox/build/Desktop_Qt_6_8_0-Debug/10_ComboBox)
+set(__QT_DEPLOY_TARGET_10_ComboBox_TYPE EXECUTABLE)

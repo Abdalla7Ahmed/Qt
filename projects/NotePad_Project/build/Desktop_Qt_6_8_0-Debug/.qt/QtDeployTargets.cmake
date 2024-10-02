@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_16_NotePad_Project_FILE /home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/build/Desktop_Qt_6_8_0-Debug/16_NotePad_Project)
+set(__QT_DEPLOY_TARGET_16_NotePad_Project_TYPE EXECUTABLE)

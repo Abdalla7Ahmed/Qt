@@ -1,0 +1,9 @@
+# ninja log v6
+8	38	1726408726354892475	2_FirstGui_autogen/timestamp	e2d1852c743c04e2
+8	38	1726408726354892475	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/2_FirstGui/build/Desktop_Qt_6_8_0-Debug/2_FirstGui_autogen/mocs_compilation.cpp	e2d1852c743c04e2
+8	38	1726408726354892475	2_FirstGui_autogen/mocs_compilation.cpp	e2d1852c743c04e2
+2172	2485	1726408728518802095	2_FirstGui	735cfde575d562cf
+8	38	1726408726354892475	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/2_FirstGui/build/Desktop_Qt_6_8_0-Debug/2_FirstGui_autogen/timestamp	e2d1852c743c04e2
+38	2172	1726408726384891222	CMakeFiles/2_FirstGui.dir/mainwindow.cpp.o	95f4ffbb28387882
+297	2767	1726316242214115319	CMakeFiles/2_FirstGui.dir/main.cpp.o	251d52ad0b83c83f
+297	2224	1726316242214115319	CMakeFiles/2_FirstGui.dir/2_FirstGui_autogen/mocs_compilation.cpp.o	dff1a6c89d30282a

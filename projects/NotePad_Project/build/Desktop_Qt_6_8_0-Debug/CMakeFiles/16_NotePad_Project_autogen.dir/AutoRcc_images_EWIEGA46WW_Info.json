@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/build/Desktop_Qt_6_8_0-Debug/16_NotePad_Project_autogen",
+	"CMAKE_BINARY_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/build/Desktop_Qt_6_8_0-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/build/Desktop_Qt_6_8_0-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project",
+	"CMAKE_SOURCE_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/build/Desktop_Qt_6_8_0-Debug/16_NotePad_Project_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/redo.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/save.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/open.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/New.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/save as.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/about.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/undo.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/color.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/copy.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/font.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/paste.png",
+		"/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images/cut.png"
+	],
+	"LOCK_FILE" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/16_NotePad_Project_autogen.dir/AutoRcc_images_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "/home/abdallah/Qt/6.8.0/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/build/Desktop_Qt_6_8_0-Debug/CMakeFiles/16_NotePad_Project_autogen.dir/AutoRcc_images_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/16_NotePad_Project/images.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

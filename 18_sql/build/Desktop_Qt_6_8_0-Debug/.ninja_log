@@ -1,0 +1,20 @@
+# ninja log v6
+4	14	1726479537543637547	18_sql_autogen/timestamp	7db244108ff2ee51
+4	14	1726479537543637547	18_sql_autogen/mocs_compilation.cpp	7db244108ff2ee51
+4	14	1726479537543637547	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/18_sql/build/Desktop_Qt_6_8_0-Debug/18_sql_autogen/timestamp	7db244108ff2ee51
+253	2082	1726479332677153841	CMakeFiles/18_sql.dir/18_sql_autogen/mocs_compilation.cpp.o	d967002d490d1af5
+4	14	1726479537543637547	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/18_sql/build/Desktop_Qt_6_8_0-Debug/18_sql_autogen/mocs_compilation.cpp	7db244108ff2ee51
+3486	3791	1726479335910114706	18_sql	621cf545b9be029a
+253	2046	1726479332677153841	CMakeFiles/18_sql.dir/main.cpp.o	dc7ba27caa354a06
+253	3486	1726479332677153841	CMakeFiles/18_sql.dir/mainwindow.cpp.o	de4986c9e88c2682
+4	16	1726479570633225989	18_sql_autogen/timestamp	7db244108ff2ee51
+4	16	1726479570633225989	18_sql_autogen/mocs_compilation.cpp	7db244108ff2ee51
+4	16	1726479570633225989	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/18_sql/build/Desktop_Qt_6_8_0-Debug/18_sql_autogen/timestamp	7db244108ff2ee51
+4	16	1726479570633225989	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/18_sql/build/Desktop_Qt_6_8_0-Debug/18_sql_autogen/mocs_compilation.cpp	7db244108ff2ee51
+17	3225	1726479570646225827	CMakeFiles/18_sql.dir/mainwindow.cpp.o	de4986c9e88c2682
+4	15	1726479586463028751	18_sql_autogen/timestamp	7db244108ff2ee51
+4	15	1726479586463028751	18_sql_autogen/mocs_compilation.cpp	7db244108ff2ee51
+4	15	1726479586463028751	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/18_sql/build/Desktop_Qt_6_8_0-Debug/18_sql_autogen/timestamp	7db244108ff2ee51
+4	15	1726479586463028751	/home/abdallah/Documents/Github/Embedded_Linux_Diploma/qt/1_Widget_applications/18_sql/build/Desktop_Qt_6_8_0-Debug/18_sql_autogen/mocs_compilation.cpp	7db244108ff2ee51
+16	3268	1726479586475028601	CMakeFiles/18_sql.dir/mainwindow.cpp.o	de4986c9e88c2682
+3268	3552	1726479589726988055	18_sql	621cf545b9be029a
